@@ -928,8 +928,6 @@
     </div>
     
     <!-- End Scroll To Top Button -->
-
-    <p> This Is My Main Paragraph </p>
   
     <!-- End My Work -->
     
