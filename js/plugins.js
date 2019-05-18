@@ -10,7 +10,7 @@ $(document).ready(function () {
     
     var goToTopButton = $(".top");
     
-    // Get Screen Width When Resize...
+    // Get Screen Width When Resize... [ For testing Only ]
     
     $(window).resize(function () { console.log($(window).width()); });
     
@@ -153,6 +153,26 @@ $(document).ready(function () {
 
     // End Triggering Nice Scroll Plugin
 
+    // Start Loading Screen
+
+    $(window).load(function() {
+
+       $(".preloader .spinner").fadeOut(2000, function() {
+
+           $(this).parent().fadeOut(2000,function() {
+
+               $("body").css("overflow-y","auto");
+
+               $(this).remove();
+
+           });
+
+       });    
+
+    });
+
+    // End Loading Screen
+    
 });
 
 // End JQuery Code 
