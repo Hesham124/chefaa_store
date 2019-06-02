@@ -184,5 +184,8 @@
     <!-- Start Calling Nice Scroll Functionality Plugin -->
     <script src = "js/niceScrolling.js" ></script>
     <!-- End Calling Nice Scroll Functionality Plugin -->
+    <!-- Start Calling Owl Carousel Activation Plugin -->
+    <script src = "js/owlCarouselActivation.js" ></script>
+    <!-- End Calling Owl Carousel Activation Plugin -->
    </body>
 </html>
