@@ -147,7 +147,7 @@
     
     <!-- Start Scroll To Top Button -->
     
-    <div class = "top" title = "go to top" >
+    <div class = "go_to_top_button" title = "go to top" >
         <i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i>
     </div>
     

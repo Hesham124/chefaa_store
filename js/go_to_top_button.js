@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     // Define Variables
     
-    var goToTopButton = $(".top");
+    var goToTopButton = $(".go_to_top_button");
 
      // Start Showing and hiding scroll to top button
     
