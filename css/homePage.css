@@ -609,25 +609,4 @@ nav ul li a { color : #777; font-weight : bold }
 
 /* End Copyright */
 
-/* Start Scroll To Top Button */
-
-.top {
-    position         : fixed;
-    bottom           : 15%;
-    text-align       : center;
-    left             : 2%;
-    padding          : 6px 11px;
-    border           : none;
-    border-radius    : 5px;
-    background-color : #4A9F45;
-    color            : #FFF;
-    font-size        : 14px;
-    font-weight      : normal;
-    cursor           : pointer;
-    display          : none ;
-    z-index          : 9999
-}
-
-/* End Scroll To Top Button  */
-
 /* End CSS Code */

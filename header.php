@@ -20,6 +20,9 @@
     <!-- Start Calling Preloader Css File -->
     <link rel = "stylesheet" href = "css/preloader.css" />
     <!-- End Calling Preloader Css File -->
+    <!-- Start Calling Go To Top Button CSS File -->
+    <link rel = "stylesheet" href = "css/go_to_top_button.css" />
+    <!-- End Calling Go To Top Button Css File  -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src = 'js/respond.min.js' ></script>

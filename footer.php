@@ -178,5 +178,8 @@
     <!-- Start Calling Preloader JS File -->
     <script src = "js/preloader.js" ></script>
     <!-- End Calling Preloader JS File -->
+    <!-- Start Calling Go To Top Button JS File -->
+    <script src = "js/go_to_top_button.js" ></script>
+    <!-- End Calling Go To Top Button JS File -->
    </body>
 </html>
