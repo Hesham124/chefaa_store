@@ -15,3 +15,7 @@
 <!-- Start Calling Website Footer -->
 <?php require("footer.php"); ?>
 <!-- End Calling Website Footer -->
+
+<!-- Start Calling Single Product Page JS File -->
+<script src = "js/single_product.js" ></script>
+<!-- End Calling Single Product Page JS File -->
