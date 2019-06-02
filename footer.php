@@ -187,5 +187,8 @@
     <!-- Start Calling Owl Carousel Activation Plugin -->
     <script src = "js/owlCarouselActivation.js" ></script>
     <!-- End Calling Owl Carousel Activation Plugin -->
+    <!-- Start Calling Header And Footer JS File -->
+    <script src = "js/header_and_footer.js" ></script>
+    <!-- End Calling Header And Footer JS File -->
    </body>
 </html>

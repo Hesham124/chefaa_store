@@ -2,7 +2,7 @@
 <?php require("header.php"); ?>
 <!-- End Calling Website Header -->
 
-<h1> Single Product Page </h1>
+<h1 style = "text-align:center" > Single Product Page </h1>
 
 <!-- Start Calling Website Footer -->
 <?php require("footer.php"); ?>
