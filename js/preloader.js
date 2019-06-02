@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    "use strict";
+
      // Start Loading Screen
 
     $(window).load(function() {
