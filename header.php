@@ -17,15 +17,15 @@
     <link rel = "stylesheet" href = "css/owl.theme.default.min.css" />
     <!-- End Calling Carousel Slider CSS Files -->
     <!-- End Calling Bootstrap and Custom Styling Files -->
+    <!-- Start Calling Header And Footer CSS Style -->
+    <link rel = "stylesheet" href = "css/header_and_footer.css" />
+    <!-- End Calling Header And Footer CSS Style -->
     <!-- Start Calling Preloader Css File -->
     <link rel = "stylesheet" href = "css/preloader.css" />
     <!-- End Calling Preloader Css File -->
     <!-- Start Calling Go To Top Button CSS File -->
     <link rel = "stylesheet" href = "css/go_to_top_button.css" />
     <!-- End Calling Go To Top Button Css File  -->
-    <!-- Start Calling Header And Footer CSS Style -->
-    <link rel = "stylesheet" href = "css/header_and_footer.css" />
-    <!-- End Calling Header And Footer CSS Style -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src = 'js/respond.min.js' ></script>
