@@ -181,5 +181,8 @@
     <!-- Start Calling Go To Top Button JS File -->
     <script src = "js/go_to_top_button.js" ></script>
     <!-- End Calling Go To Top Button JS File -->
+    <!-- Start Calling Nice Scroll Functionality Plugin -->
+    <script src = "js/niceScrolling.js" ></script>
+    <!-- End Calling Nice Scroll Functionality Plugin -->
    </body>
 </html>

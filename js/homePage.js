@@ -96,24 +96,6 @@ $(document).ready(function () {
     });
 
     // End Showing And Hiding The Login Section
-
-    // Start Triggering The Nice Scroll Plugin
-
-    // Start Triggering Nice Scroll Plugin.
-    
-    $("html").niceScroll({
-        
-        cursorcolor        : '#37B44E',
-        
-        cursorwidth        : '9px',
-        
-        cursorborder       : '1px solid #37B44E',
-        
-        cursorborderradius : 0
-        
-    });
-
-    // End Triggering Nice Scroll Plugin
     
 });
 
