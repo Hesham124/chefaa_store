@@ -135,7 +135,7 @@
         </div>
     </div>
     <!-- End Product Details  -->
-</section>
+</section> <!-- Comment -->
 
 <!-- End Single Product Page -->
 
