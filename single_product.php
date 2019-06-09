@@ -135,7 +135,132 @@
         </div>
     </div>
     <!-- End Product Details  -->
-</section> <!-- Comment -->
+</section>
+
+<!-- Start Best Selling products -->
+    
+<div id = "best_selling_products" class = "best_selling_products" >
+        <div class = "container" >
+            <div class = "row" >
+                <div class = "col-lg-12" >
+                    <div class = "title" >
+                        <h5>  اكثر المنتجات مبيعا  </h5>
+                    </div>
+                </div>
+            </div>
+            <div class = "best_selling_products_slider" >
+                <div class = "owl-carousel owl-theme" >
+                    <!-- Start Item -->
+                    <div class = "item" >
+                        <div class = "item_content" >
+                            <div class = "discount" >40%</div>
+                            <div class = "image" >
+                              <img src = "images/best_selling_products_images/bestseller_product_image_1.png" alt = "best_seller_product_image"  />
+                            </div>
+                            <div class = "item_desc" >
+                                <h6> Pampers </h6>
+                                <p> وصف للبامبرز انه جميل وطعم وحليوه ولانهى بيبى </p>
+                                <div class = "offer_price" >
+                                    <del> 1500 جنيه </del> 
+                                    <span> 900 جنيه </span>
+                                    <a href = "" target = "_blank" >
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    <!-- End Item -->
+                    <!-- Start Item -->
+                    <div class = "item" >
+                        <div class = "item_content" >
+                            <div class = "discount" >40%</div>
+                            <div class = "image" >
+                              <img src = "images/best_selling_products_images/bestseller_product_image_2.png" alt = "best_seller_product_image"  />
+                            </div>
+                            <div class = "item_desc" >
+                                <h6> Pampers </h6>
+                                <p> وصف للبامبرز انه جميل وطعم وحليوه ولانهى بيبى </p>
+                                <div class = "offer_price" >
+                                    <del> 1500 جنيه </del> 
+                                    <span> 900 جنيه </span>
+                                    <a href = "" target = "_blank" >
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    <!-- End Item -->
+                    <!-- Start Item -->
+                    <div class = "item" >
+                        <div class = "item_content" >
+                            <div class = "discount" >40%</div>
+                            <div class = "image" >
+                              <img src = "images/best_selling_products_images/bestseller_product_image_3.png" alt = "best_seller_product_image"  />
+                            </div>
+                            <div class = "item_desc" >
+                                <h6> Pampers </h6>
+                                <p> وصف للبامبرز انه جميل وطعم وحليوه ولانهى بيبى </p>
+                                <div class = "offer_price" >
+                                    <del> 1500 جنيه </del> 
+                                    <span> 900 جنيه </span>
+                                    <a href = "" target = "_blank" >
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    <!-- End Item -->
+                    <!-- Start Item -->
+                    <div class = "item" >
+                        <div class = "item_content" >
+                            <div class = "discount" >40%</div>
+                            <div class = "image" >
+                              <img src = "images/best_selling_products_images/bestseller_product_image_4.png" alt = "best_seller_product_image"  />
+                            </div>
+                            <div class = "item_desc" >
+                                <h6> Pampers </h6>
+                                <p> وصف للبامبرز انه جميل وطعم وحليوه ولانهى بيبى </p>
+                                <div class = "offer_price" >
+                                    <del> 1500 جنيه </del> 
+                                    <span> 900 جنيه </span>
+                                    <a href = "" target = "_blank" >
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    <!-- End Item -->
+                    <!-- Start Item -->
+                    <div class = "item" >
+                        <div class = "item_content" >
+                            <div class = "discount" >40%</div>
+                            <div class = "image" >
+                              <img src = "images/best_selling_products_images/bestseller_product_image_5.png" alt = "best_seller_product_image"  />
+                            </div>
+                            <div class = "item_desc" >
+                                <h6> Pampers </h6>
+                                <p> وصف للبامبرز انه جميل وطعم وحليوه ولانهى بيبى </p>
+                                <div class = "offer_price" >
+                                    <del> 1500 جنيه </del> 
+                                    <span> 900 جنيه </span>
+                                    <a href = "" target = "_blank" >
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    <!-- End Item -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- End Best Selling products -->
 
 <!-- End Single Product Page -->
 

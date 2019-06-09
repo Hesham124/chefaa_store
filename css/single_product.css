@@ -169,4 +169,74 @@
 #single_product_details .product_details ul li:nth-child(4) { margin-bottom : 0 }
 
 
+/* Start Best Selling Products */
+
+#best_selling_products { padding : 45px 0;background-color : #FFF }
+
+#best_selling_products .title h5 { text-align : center;margin-bottom : 3% }
+
+#best_selling_products .title h5:after {
+    content : "";
+    display : block;
+    border  : 2px solid #37B44E;
+    width   : 3%;
+    margin  : 1% auto
+}
+
+#best_selling_products .best_selling_products_slider .item .item_content { position : relative }
+
+#best_selling_products .best_selling_products_slider .item .item_content .discount { 
+    position         : absolute;
+    text-align       : center;
+    top              : 2%;
+    left             : 0;
+    padding          : 1% 5%;
+    z-index          : 99999;
+    font-weight      : bold;
+    color            : #FFF;
+    background-color : orange;
+    opacity          : 0.7
+}
+
+#best_selling_products .best_selling_products_slider .item .image { padding : 20px;background-color : #F8F8F8 }
+
+#best_selling_products .best_selling_products_slider .item .image img { width : 100% !important }
+
+#best_selling_products .best_selling_products_slider .item .item_desc { text-align : right }
+
+#best_selling_products .best_selling_products_slider .item .item_desc h6 { margin-top : 5%;color : #777 }
+
+#best_selling_products .best_selling_products_slider .item .item_desc p { font-size: 16px }
+
+#best_selling_products .best_selling_products_slider .item .item_desc h6:after {
+    content    : "";
+    display    : block;
+    border     : 1px solid #000;
+    width      : 6%;
+    margin-top : 4%
+}
+
+#best_selling_products .best_selling_products_slider .item .item_desc del { color : #777 }
+
+#best_selling_products .best_selling_products_slider .item .item_desc span,
+
+#best_selling_products .best_selling_products_slider .item .item_desc del { font-size : 17px }
+
+#best_selling_products .best_selling_products_slider .item .item_desc span { margin : 0 5%;font-weight: bold;color : #37B44E }
+
+#best_selling_products .best_selling_products_slider .item .item_desc .offer_price a i { color : orange ; opacity : 0.7 }
+
+#best_selling_products .owl-nav { margin-top: 2% }
+
+#best_selling_products .owl-dots { display: none } 
+
+#best_selling_products .owl-prev , #best_selling_products .owl-next { 
+    background-color : transparent; 
+    color            : #000; 
+    font-weight      : bold;
+    font-size        : 25px
+}
+
+/* End Best Selling Products */
+
 /* End CSS Code */
