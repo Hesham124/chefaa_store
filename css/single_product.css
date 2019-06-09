@@ -1,4 +1,129 @@
 /* Start CSS Code */
 
+#single_product {
+    padding : 45px 0
+}
+
+#single_product .single_product_image {
+    padding : 20px;
+    background-color : #F8F8F8;
+    position : relative
+}
+
+#single_product .single_product_image .discount {
+    position         : absolute;
+    text-align       : center;
+    top              : 2%;
+    left             : 0;
+    padding          : 1% 5%;
+    z-index          : 99999;
+    font-weight      : bold;
+    color            : #FFF;
+    background-color : orange;
+    opacity          : 0.7;
+    z-index          : 99999
+}
+
+#single_product .single_product_info {
+    text-align : right;
+    margin-top : 32%
+}
+
+#single_product .single_product_info .product_title {
+    color : #777;
+    font-size : 16px
+}
+
+#single_product .single_product_info p:first-of-type {
+    font-weight : bold;
+}
+
+#single_product .single_product_info p:first-of-type:after {
+    content : "";
+    display : block;
+    border  : 2px solid #37B44E;
+    width   : 5%;
+    margin : 4% 0
+}
+
+#single_product .single_product_info .product_price {
+    margin-bottom : 13%
+}
+
+#single_product .single_product_info .product_price del , #single_product .single_product_info .product_price span {
+    display : block
+}
+
+#single_product .single_product_info .product_price del {
+     color : #777
+}
+
+#single_product .single_product_info .product_price span:first-of-type {
+    font-weight : bold;
+    font-size : 33px
+}
+
+#single_product .single_product_info .product_price .price_saving {
+    color : #37B44E;
+    font-weight : normal
+}
+
+#single_product .single_product_info .product_purchasing_details span {
+    color : #777;
+    font-size : 16px
+}
+
+#single_product .single_product_info .product_purchasing_details ul li {
+    display : inline-block;
+    margin-left : 2%
+}
+
+#single_product .single_product_info .product_purchasing_details ul li select {
+    padding : 9px 20px 9px 20px;
+    border : 1px solid #777;
+    color : #777;
+    outline : none
+}
+
+#single_product .single_product_info .product_purchasing_details ul li button {
+    background-color : #37B44E;
+    border           : 2px solid #37B44E;
+    padding          : 8px 35px;
+    color            : #FFF;
+    cursor           : pointer;
+    outline : none
+}
+
+#single_product .single_product_info .product_purchasing_details ul li:last-of-type {
+    padding : 10px 10px 6px 10px;
+    background-color : #DDD;
+    border-radius : 50%
+}
+
+#single_product .single_product_info .product_purchasing_details ul li:last-of-type i { font-size : 25px }
+/******/
+#single_product_details { padding : 45px 0 }
+
+#single_product_details .empty { 
+    background-color : #F8F8F8;
+    padding : 10px 0
+ }
+
+ #single_product_details .trade_mark {
+     padding : 10px 0;
+     color : #999;
+     text-align : right
+ } 
+
+  #single_product_details .trade_mark .trade_mark_content span { font-weight : bold ; color : #000}
+  
+  #single_product_details .type {
+    padding : 10px 0;
+    color : #999;
+    background-color : #F8F8F8;
+    text-align : right
+} 
+
+ #single_product_details .type .type_content span { font-weight : bold ; color : #000}
 
 /* End CSS Code */
