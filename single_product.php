@@ -154,6 +154,9 @@
                     <div class = "item" >
                         <div class = "item_content" >
                             <div class = "discount" >40%</div>
+                            <div class = "best_selling_sign" >
+                                 <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                            </div>
                             <div class = "image" >
                               <img src = "images/best_selling_products_images/bestseller_product_image_1.png" alt = "best_seller_product_image"  />
                             </div>
@@ -174,6 +177,9 @@
                     <!-- Start Item -->
                     <div class = "item" >
                         <div class = "item_content" >
+                        <div class = "best_selling_sign" >
+                                 <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                            </div>
                             <div class = "discount" >40%</div>
                             <div class = "image" >
                               <img src = "images/best_selling_products_images/bestseller_product_image_2.png" alt = "best_seller_product_image"  />
@@ -195,6 +201,9 @@
                     <!-- Start Item -->
                     <div class = "item" >
                         <div class = "item_content" >
+                        <div class = "best_selling_sign" >
+                                 <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                            </div>
                             <div class = "discount" >40%</div>
                             <div class = "image" >
                               <img src = "images/best_selling_products_images/bestseller_product_image_3.png" alt = "best_seller_product_image"  />
@@ -216,6 +225,9 @@
                     <!-- Start Item -->
                     <div class = "item" >
                         <div class = "item_content" >
+                        <div class = "best_selling_sign" >
+                                 <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                            </div>
                             <div class = "discount" >40%</div>
                             <div class = "image" >
                               <img src = "images/best_selling_products_images/bestseller_product_image_4.png" alt = "best_seller_product_image"  />
@@ -237,6 +249,9 @@
                     <!-- Start Item -->
                     <div class = "item" >
                         <div class = "item_content" >
+                        <div class = "best_selling_sign" >
+                                 <i class="fa fa-heart-o fa-fw" aria-hidden="true"></i>
+                            </div>
                             <div class = "discount" >40%</div>
                             <div class = "image" >
                               <img src = "images/best_selling_products_images/bestseller_product_image_5.png" alt = "best_seller_product_image"  />

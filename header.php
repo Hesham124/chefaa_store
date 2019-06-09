@@ -10,6 +10,9 @@
     <!-- Start Font Awesome Library -->
     <link rel = "stylesheet" href = "css/font-awesome.min.css" />
     <!-- End Font Awesome Library -->
+    <!-- Start Include Font Family Tajawal -->
+    <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet" />
+    <!-- End Include Font Family Tajawal -->
     <!-- Start Calling Bootstrap and custom Styling Files -->
     <link rel = 'stylesheet' href = 'css/bootstrap.css' />
     <!-- Start Calling Carousel Slider CSS Files -->

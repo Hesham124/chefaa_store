@@ -1,6 +1,10 @@
 /* Start CSS Code */
 
-body { direction : rtl ; box-sizing : border-box}
+body { 
+    direction : rtl ; 
+    box-sizing : border-box;
+    font-family: 'Tajawal', sans-serif !important;
+}
 
 html , body { max-width : 100% ;overflow-x : hidden }
 
@@ -53,7 +57,7 @@ nav ul li a { color : #777; font-weight : bold }
 	text-align : right;
 	display    : inline-block;
 	font-size  : 17px;
-	padding    : 3px 15px
+	padding    : 3px 13px
 }
 
 #store_features #features ul li:nth-child(1),
