@@ -115,9 +115,9 @@
      text-align : right
  } 
 
-  #single_product_details .trade_mark .trade_mark_content span { font-weight : bold ; color : #000}
+#single_product_details .trade_mark .trade_mark_content span { font-weight : bold ; color : #000}
   
-  #single_product_details .type {
+#single_product_details .type {
     padding : 10px 0;
     color : #999;
     background-color : #F8F8F8;
@@ -125,5 +125,48 @@
 } 
 
  #single_product_details .type .type_content span { font-weight : bold ; color : #000}
+
+ #single_product_details .composition {
+    padding : 10px 0;
+    color : #999;
+    text-align : right
+} 
+
+ #single_product_details .composition .composition_content span { font-weight : bold ; color : #000}
+
+ #single_product_details .size {
+    padding : 10px 0;
+    color : #999;
+    background-color : #F8F8F8;
+    text-align : right
+} 
+
+ #single_product_details .size .size_content span { font-weight : bold ; color : #000}
+
+ #single_product_details .category {
+    padding : 10px 0;
+    color : #999;
+    text-align : right
+} 
+
+ #single_product_details .category .category_content span { font-weight : bold ; color : #000}
+
+ #single_product_details .product_details {
+    padding : 25px 0;
+    background-color : #F8F8F8;
+} 
+
+#single_product_details .product_details ul { list-style-type : disc !important ; margin-right : 2% }
+
+#single_product_details .product_details ul li { 
+    text-align : right;
+    direction : rtl;
+    font-weight : bold;
+    color : #000;
+    margin-bottom : 1%
+}
+
+#single_product_details .product_details ul li:nth-child(4) { margin-bottom : 0 }
+
 
 /* End CSS Code */

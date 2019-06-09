@@ -78,6 +78,63 @@
       </div>
     </div> 
     <!-- End Product Type -->
+    <!-- Start Product Composition -->
+    <div class = "composition" >
+       <div class = "container" >
+           <div class = "row" >
+               <div class = "col-lg-12" >
+                 <div class = "composition_content" >
+                     التركيبة : <span> كريم  </span>
+                 </div>
+               </div>
+           </div>
+      </div>
+    </div> 
+    <!-- End Product Composition -->
+    <!-- Start Product Size -->
+    <div class = "size" >
+       <div class = "container" >
+           <div class = "row" >
+               <div class = "col-lg-12" >
+                 <div class = "size_content" >
+                     الحجم : <span> 60 مل   </span>
+                 </div>
+               </div>
+           </div>
+      </div>
+    </div> 
+    <!-- End Product Size -->
+    <!-- Start Product Category -->
+    <div class = "category" >
+       <div class = "container" >
+           <div class = "row" >
+               <div class = "col-lg-12" >
+                 <div class = "category_content" >
+                     الفئة : <span>  للجسم </span>
+                 </div>
+               </div>
+           </div>
+      </div>
+    </div> 
+    <!-- End Product Category -->
+    <!-- Start Product Details -->
+    <div class = "product_details" >
+        <div class = "container" >
+            <div class = "row" >
+                <div class = "col-lg-12" >
+                    <div class = "product_details_content" >
+                        <ul>
+                            <li> يقلل من مظهر فرط التصبغ بالبشرة  </li>
+                            <li> يضفى اشراقة طبيعية للبشرة </li>
+                            <li> يقوم بتفتيح بقع الشيخوخة والبقع الشمسية وتصبغات البشرة الاخرى </li>
+                            <li> يحسن ملمس ونقاء البشرة </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Product Details  -->
 </section>
 
 <!-- End Single Product Page -->
