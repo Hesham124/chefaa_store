@@ -259,61 +259,29 @@
 /* End Best Selling Products */
 
 @media(max-width : 1024px) {
-
-    #single_product .single_product_info {
-
-           margin-top : 22.9% !important
-
-    }
-
+    #single_product .single_product_info { margin-top : 22.9% !important }
 }
 
 @media(max-width : 320px) {
-
     #single_product .single_product_info .product_purchasing_details ul li:last-of-type {
-
          margin-top : 4% !important
-
-    }
-
-    #single_product_details .product_details ul li {
-
-         margin-bottom : 5%
-
-    }
-
+}
+    #single_product_details .product_details ul li { margin-bottom : 5% }
 }
 
 @media(max-width : 360px) {
-
     #single_product_details .product_details ul { margin-right : 5% !important }
-
-    #single_product_details .product_details ul li {
-
-         margin-bottom : 5%
-
-    }
-
+    #single_product_details .product_details ul li { margin-bottom : 5% }
 }
 
 @media(max-width : 411px) {
-
     #single_product_details .product_details ul { margin-right : 4% !important }
-    #single_product_details .product_details ul li {
-
-        margin-bottom : 5%
-
-   }
+    #single_product_details .product_details ul li { margin-bottom : 5% }
 }
 
 @media(max-width : 414px) {
-
     #single_product_details .product_details ul { margin-right : 4% !important }
-    #single_product_details .product_details ul li {
-
-        margin-bottom : 5%
-
-   }
+    #single_product_details .product_details ul li { margin-bottom : 5% }
 }
 
 /* End CSS Code */
