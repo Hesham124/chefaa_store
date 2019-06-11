@@ -6,9 +6,9 @@ $(document).ready(function() {
 
     $(window).load(function() {
 
-        $(".preloader .spinner").fadeOut(2000, function() {
+        $(".preloader .spinner").fadeOut(1500, function() {
  
-            $(this).parent().fadeOut(2000,function() {
+            $(this).parent().fadeOut(1500,function() {
  
                 $("body").css("overflow-y","auto");
  
