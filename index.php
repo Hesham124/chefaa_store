@@ -4,7 +4,7 @@
 <link rel = 'stylesheet' href = 'css/homePage.css' />
  <!-- Start Carousel Slider -->
  
-    <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+    <!-- <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
       <ol class = 'carousel-indicators' >
         <li data-target = '#carousel-slider' data-slide-to = '0' class = 'active' ></li>
         <li data-target = '#carousel-slider' data-slide-to = '1' ></li>
@@ -84,6 +84,41 @@
               </div>
             </div>
         </div>
+      </div>
+    </div> -->
+
+    <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+      <ol class = 'carousel-indicators' >
+        <li data-target = '#carousel-slider' data-slide-to = '0' class = 'active' ></li>
+        <li data-target = '#carousel-slider' data-slide-to = '1' ></li>
+        <li data-target = '#carousel-slider' data-slide-to = '2' ></li>
+        <li data-target = '#carousel-slider' data-slide-to = '3' ></li>
+      </ol>
+      <div class = 'carousel-inner' >
+          <div class = 'carousel-item active' >
+              <img 
+                    class = 'd-block w-100' 
+                        src = 'images/carousel_images/01.png' 
+                          alt = 'First slide' />
+          </div>
+          <div class = 'carousel-item' >
+              <img 
+                    class = 'd-block w-100' 
+                        src = 'images/carousel_images/02.jpg' 
+                          alt = 'First slide' />
+          </div>
+          <div class = 'carousel-item' >
+              <img 
+                    class = 'd-block w-100' 
+                        src = 'images/carousel_images/03.jpg' 
+                          alt = 'First slide' />
+          </div>
+          <div class = 'carousel-item' >
+              <img 
+                    class = 'd-block w-100' 
+                        src = 'images/carousel_images/04.jpg' 
+                          alt = 'First slide' />
+          </div>
       </div>
     </div>
 

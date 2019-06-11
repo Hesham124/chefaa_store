@@ -2,7 +2,7 @@
             
 /* Start Carousel Slider */
 
-#carousel-slider { padding : 60px 0;background-color : #F8F8F8 }
+#carousel-slider { //padding : 60px 0;//background-color : #F8F8F8 }
 
 #carousel-slider .carousel-indicators li { background-color: #DDD }
 
