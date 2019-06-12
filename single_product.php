@@ -11,13 +11,52 @@
 <section id = "single_product" class = "single_product" >
      <div class = "container" >
          <div class = "row" >
-              <div class = "col-lg-6" >
-                  <div class = "single_product_image" >
-                    <div class = "discount" >40%</div>
-                    <img src = "images/single_product.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
-                  </div>
+              <div class = "col-lg-1" >
+                 <div class = "single_product_images" >
+                     <div class = "active" data-target = '#carousel-slider' data-slide-to = '0' >
+                         <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                     </div>
+                     <div data-target = '#carousel-slider' data-slide-to = '1'  >
+                         <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                     </div>
+                     <div data-target = '#carousel-slider' data-slide-to = '2' >
+                         <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                     </div>
+                 </div>
               </div>
               <div class = "col-lg-6" >
+                  <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+                   <div class = 'carousel-inner' >
+                    <div class = 'carousel-item active' >
+                       <div class = "single_product_image" >
+                            <div class = "discount" >40%</div>
+                            <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <div class = 'carousel-item' >
+                       <div class = "single_product_image" >
+                            <div class = "discount" >40%</div>
+                            <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <div class = 'carousel-item' >
+                       <div class = "single_product_image" >
+                            <div class = "discount" >40%</div>
+                            <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <!-- Carousel Arrows -->
+                    <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                       <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                       <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                   </div>
+                  </div>
+                  <!-- -->
+              </div>
+              <div class = "col-lg-5" >
                    <div class = "single_product_info" >
                        <span class = "product_title" > Himalaya</span> 
                        <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>

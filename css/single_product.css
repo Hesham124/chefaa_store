@@ -4,13 +4,13 @@
     padding : 25px 0 45px 0
 }
 
-#single_product .single_product_image {
-    padding : 20px;
+#single_product #carousel-slider .single_product_image {
     background-color : #F8F8F8;
-    position : relative
+    position : relative;
+    cursor : pointer
 }
 
-#single_product .single_product_image .discount {
+#single_product #carousel-slider .single_product_image .discount {
     position         : absolute;
     text-align       : center;
     top              : 2%;
@@ -23,6 +23,23 @@
     opacity          : 0.7;
     z-index          : 99999
 }
+
+#single_product .single_product_images > div {
+    outline : 1px solid #DDD;
+    margin-bottom : 11%;
+    cursor : pointer;
+    opacity : 0.5;
+    border-radius : 5px;
+    color : #000
+}
+
+#single_product .single_product_images  div.active {
+    outline : 1px solid #000;
+    opacity : 1
+}
+
+#single_product #carousel-slider .carousel-control-prev i , 
+#single_product #carousel-slider .carousel-control-next i { color : #777 }
 
 #single_product .single_product_info {
     text-align : right;
