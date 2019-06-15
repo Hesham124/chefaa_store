@@ -35,7 +35,8 @@
 
 #single_product .single_product_images  div.active {
     outline : 1px solid #000;
-    opacity : 1
+    opacity : 1;
+    transition : 0.4s ease-in-out
 }
 
 #single_product #carousel-slider .carousel-control-prev i , 
@@ -43,7 +44,7 @@
 
 #single_product .single_product_info {
     text-align : right;
-    margin-top : 33.5%
+    margin-top : 29.3%
 }
 
 #single_product .single_product_info .product_title {
@@ -88,6 +89,18 @@
     font-weight : 400;
     font-size : 15px
 }
+
+#single_product .product_evaluation div {
+    font-weight : bolder;
+    color : #262626;
+    margin-bottom : 2%
+}
+
+#single_product .product_evaluation ul li {
+    display : inline-block
+}
+
+#single_product .product_evaluation ul li i.active_evaluation { color : #FCBD4A }
 
 #single_product .single_product_info .product_purchasing_details span {
     color : #b8b8b8;

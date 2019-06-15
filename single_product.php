@@ -12,6 +12,7 @@
      <div class = "container" >
          <div class = "row" >
               <div class = "col-lg-1" >
+                <!-- Start Carousel Indicators -->
                  <div class = "single_product_images" >
                      <div class = "active" data-target = '#carousel-slider' data-slide-to = '0' >
                          <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
@@ -23,6 +24,7 @@
                          <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
                      </div>
                  </div>
+                 <!-- End Carousel Indicators -->
               </div>
               <div class = "col-lg-6" >
                   <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
@@ -65,6 +67,28 @@
                           <span> 250 جنيه </span>
                           <span class = "price_saving" > وفرت 400 جنيه  </span>
                        </div>
+                       <!-- Start Product Evaluation -->
+                       <div class = "product_evaluation" >
+                           <div> تقييم المنتج </div>
+                           <ul>
+                              <li>
+                                 <i class="fa fa-star active_evaluation" aria-hidden="true"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star active_evaluation" aria-hidden="true"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star active_evaluation" aria-hidden="true"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star active_evaluation" aria-hidden="true"></i>
+                              </li>
+                              <li>
+                                 <i class="fa fa-star-o" aria-hidden="true"></i>
+                              </li>
+                           </ul>
+                       </div>
+                       <!-- End Product Evaluation -->
                        <div class = "product_purchasing_details" >
                           <span> كمية  </span>
                           <ul>
