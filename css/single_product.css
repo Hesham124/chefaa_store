@@ -30,7 +30,8 @@
     cursor : pointer;
     opacity : 0.5;
     border-radius : 5px;
-    color : #000
+    color : #000;
+    transition : 0.4s ease-in-out
 }
 
 #single_product .single_product_images  div.active , 
