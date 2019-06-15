@@ -33,7 +33,9 @@
     color : #000
 }
 
-#single_product .single_product_images  div.active {
+#single_product .single_product_images  div.active , 
+#single_product .single_product_images > div:hover
+{
     outline : 1px solid #000;
     opacity : 1;
     transition : 0.4s ease-in-out
