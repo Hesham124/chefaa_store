@@ -4,13 +4,17 @@
     padding : 25px 0 45px 0
 }
 
-#single_product #carousel-slider .single_product_image {
+#single_product #carousel-slider .single_product_image , 
+#single_product #carousel-slider-modal .single_product_image
+{
     background-color : #F8F8F8;
     position : relative;
     cursor : pointer
 }
 
-#single_product #carousel-slider .single_product_image .discount {
+#single_product #carousel-slider .single_product_image .discount , 
+#single_product #carousel-slider-modal .single_product_image .discount
+{
     position         : absolute;
     text-align       : center;
     top              : 2%;
@@ -43,7 +47,10 @@
 }
 
 #single_product #carousel-slider .carousel-control-prev i , 
-#single_product #carousel-slider .carousel-control-next i { color : #777 }
+#single_product #carousel-slider .carousel-control-next i , 
+#single_product #carousel-slider-modal .carousel-control-prev i,
+#single_product #carousel-slider-modal .carousel-control-next i
+{ color : #777 }
 
 #single_product .single_product_info {
     text-align : right;

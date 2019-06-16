@@ -27,7 +27,39 @@
                  <!-- End Carousel Indicators -->
               </div>
               <div class = "col-lg-6" >
-                  <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+              <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+                   <div class = 'carousel-inner' >
+                    <div class = 'carousel-item active' >
+                       <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
+                            <div class = "discount" >40%</div>
+                            <img  src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <div class = 'carousel-item' >
+                       <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
+                            <div class = "discount" >40%</div>
+                            <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <div class = 'carousel-item' >
+                       <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal" >
+                            <div class = "discount" >40%</div>
+                            <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                       </div>
+                    </div>
+                    <!-- Carousel Arrows -->
+                    <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                       <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                       <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                   </div>
+                  </div>
+              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+                  <div id = 'carousel-slider-modal' class = 'carousel slide' data-ride = 'carousel' >
                    <div class = 'carousel-inner' >
                     <div class = 'carousel-item active' >
                        <div class = "single_product_image" >
@@ -48,14 +80,17 @@
                        </div>
                     </div>
                     <!-- Carousel Arrows -->
-                    <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carousel-slider-modal" role="button" data-slide="prev">
                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     </a>
-                    <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carousel-slider-modal" role="button" data-slide="next">
                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </a>
                    </div>
                   </div>
+</div>
+</div>
+</div>
                   <!-- -->
               </div>
               <div class = "col-lg-5" >
