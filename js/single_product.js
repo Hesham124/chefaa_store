@@ -3,7 +3,9 @@ $(document).ready(function() {
      "use strict";
 
      $("#carousel-slider, #carousel-slider-modal").carousel({
+        
           interval : false
+
      }); // Disable The Autoplay Of The Carousel Slider..
 
      /*------------------------------------------------------------*/
@@ -12,8 +14,9 @@ $(document).ready(function() {
 
      $("#carousel-slider .carousel-control-next").on("click", function() {
 
-         var activeProductImage = $(".single_product_images .active");
-         var activeModalProductImage = $("#carousel-slider-modal .active");
+         var activeProductImage = $(".single_product_images .active"),
+
+             activeModalProductImage = $("#carousel-slider-modal .active");
 
          if(!activeProductImage.is(":last-child")) {
 
@@ -49,9 +52,9 @@ $(document).ready(function() {
 
      $("#carousel-slider .carousel-control-prev").on("click", function() {
 
-          var activeProductImage = $(".single_product_images .active");
+          var activeProductImage = $(".single_product_images .active"),
 
-          var activeModalProductImage = $("#carousel-slider-modal .carousel-item.active");
+              activeModalProductImage = $("#carousel-slider-modal .carousel-item.active");
  
           if(!activeProductImage.is(":first-child")) {
  
