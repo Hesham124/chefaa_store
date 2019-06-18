@@ -14,7 +14,7 @@ $(document).ready(function() {
 
      $("#carousel-slider .carousel-control-next").on("click", function() {
 
-         var activeProductImage = $(".single_product_images .active"),
+         var activeProductImage  = $(".single_product_images .active"),
 
              activeModalProductImage = $("#carousel-slider-modal .active");
 
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
          }
 
-         /*----------------------------------------------------------------*/
+         /* Start Adding Class Active To The Desired Carousel Slider Modal Item */
 
          if(!activeModalProductImage.is(":last-of-type")) {
 
@@ -43,6 +43,8 @@ $(document).ready(function() {
             $("#carousel-slider-modal .carousel-inner div").eq(0).addClass("active");
 
          }
+
+         /* End Adding Class Active To The Desired Carousel Slider Modal Item  */
 
      });
 
@@ -68,9 +70,7 @@ $(document).ready(function() {
  
           }
 
-          /*-------------------------------------------------------------------*/
-
-          /*----------------------------------------------------------------*/
+         /* Start Adding Class Active To The Desired Carousel Slider Modal Item  */
 
          if(!activeModalProductImage.is(":first-of-type")) {
 
@@ -83,12 +83,17 @@ $(document).ready(function() {
             $("#carousel-slider-modal .carousel-inner div:last-of-type").addClass("active");
 
          }
+
+         /* End Adding Class Active To The Desired Carousel Slider Modal Item  */
  
       });
 
       // End Action When Clicking On The Carousel Slider Previous Button
 
-      // Start Adding Class Active On The Clickable Single Product Image 
+      /*** 
+       * Start Adding Class Active On The Clickable Single Product Image 
+       * And also Adding It To The Desired Carousel Slider Modal Item
+       */
  
       var itemIndex = 0; // init item index 
 
@@ -104,9 +109,10 @@ $(document).ready(function() {
 
       }); 
 
-      // End Adding Class Active On The Clickable Single Product Image 
-
-      /*----------------------*/ 
+      /*** 
+       * End Adding Class Active On The Clickable Single Product Image 
+       * And also Adding It To The Desired Carousel Slider Modal Item
+       */
 
 });
 
