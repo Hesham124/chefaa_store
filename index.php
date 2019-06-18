@@ -2,7 +2,8 @@
 <?php require("header.php"); ?>
 <!-- End Calling Website Header -->
 <link rel = 'stylesheet' href = 'css/homePage.css' />
- <!-- Start Carousel Slider -->
+
+ <!-- Start Carousel Slider And Advertisements -->
  
     <!-- <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
       <ol class = 'carousel-indicators' >
@@ -87,7 +88,7 @@
       </div>
     </div> -->
 
-    <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+    <!-- <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
       <ol class = 'carousel-indicators' >
         <li data-target = '#carousel-slider' data-slide-to = '0' class = 'active' ></li>
         <li data-target = '#carousel-slider' data-slide-to = '1' ></li>
@@ -120,9 +121,88 @@
                           alt = 'First slide' />
           </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- End Carousel Slider -->
+    <section id = "slider_and_ads" class = "slider_and_ads" >
+        <div class = "container" >
+            <div class = "row" >
+              <div class = "col-lg-9" >
+                  <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+                      <ol class = 'carousel-indicators' >
+                        <li data-target = '#carousel-slider' data-slide-to = '0' class = 'active' ></li>
+                        <li data-target = '#carousel-slider' data-slide-to = '1' ></li>
+                        <li data-target = '#carousel-slider' data-slide-to = '2' ></li>
+                        <li data-target = '#carousel-slider' data-slide-to = '3' ></li>
+                      </ol>
+                      <div class = 'carousel-inner' >
+                          <div class = 'carousel-item active' >
+                            <div class = "item_content" >
+                              <div class = "overlay" ></div>
+                              <img 
+                                    class = 'd-block w-100' 
+                                        src = 'images/carousel_images/01.jpg' 
+                                          alt = 'First slide' />
+                            </div>
+                          </div>
+                          <div class = 'carousel-item' >
+                            <div class = "item_content" >
+                              <div class = "overlay" ></div>
+                              <img 
+                                    class = 'd-block w-100' 
+                                        src = 'images/carousel_images/02.jpg' 
+                                          alt = 'Second slide' />
+                            </div>
+                          </div>
+                          <div class = 'carousel-item' >
+                            <div class = "item_content" >
+                              <div class = "overlay" ></div>
+                              <img 
+                                    class = 'd-block w-100' 
+                                        src = 'images/carousel_images/03.jpg' 
+                                          alt = 'Third slide' />
+                            </div>
+                          </div>
+                          <div class = 'carousel-item' >
+                            <div class = "item_content" >
+                              <div class = "overlay" ></div>
+                              <img 
+                                    class = 'd-block w-100' 
+                                        src = 'images/carousel_images/04.jpg' 
+                                          alt = 'Fourth slide' />
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                          </a>
+                          <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                          </a>
+                      </div>
+                  </div>
+                </div>
+                <div class = "col-lg-3" >
+                    <div id = "ads" class = "ads" >
+                        <div class = "ad" >
+                          <div class = "ad_content" >
+                             <div class = "overlay" ></div>
+                             <a href = "#" ></a>
+                             <img src = "images/ad1.jpg" alt = "advertisement_1_pic" class = "img-responsive" style = "width:100% !important" />
+                          </div>
+                        </div>
+                        <div class = "ad" >
+                          <div class = "ad_content" >
+                               <div class = "overlay" ></div>
+                               <a href = "#" ></a>
+                               <img src = "images/ad2.jpg" alt = "advertisement_1_pic" class = "img-responsive" style = "width:100% !important" />
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Carousel Slider And Advertisement -->
     
     <!-- Start Latest Offers -->
     
@@ -173,11 +253,11 @@
                                     <span> 900 جنيه </span>
                                     <a href = "" target = "_blank" >
                                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                    </a>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
-                      </div>
+                    </div>
                     <!-- End Item -->
                     <!-- Start Item -->
                     <div class = "item" >

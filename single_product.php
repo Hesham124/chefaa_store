@@ -13,40 +13,42 @@
          <div class = "row" >
               <div class = "col-lg-1" >
                 <!-- Start Carousel Indicators -->
-                 <div class = "single_product_images" >
-                     <div class = "active" data-target = '#carousel-slider' data-slide-to = '0' >
-                         <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
-                     </div>
-                     <div data-target = '#carousel-slider' data-slide-to = '1'  >
-                         <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
-                     </div>
-                     <div data-target = '#carousel-slider' data-slide-to = '2' >
-                         <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
-                     </div>
-                 </div>
+                <div class = "single_product_images" >
+                    <div class = "active" data-target = '#carousel-slider' data-slide-to = '0' >
+                        <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                    </div>
+                    <div data-target = '#carousel-slider' data-slide-to = '1'  >
+                        <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                    </div>
+                    <div data-target = '#carousel-slider' data-slide-to = '2' >
+                        <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                    </div>
+                </div>
                  <!-- End Carousel Indicators -->
               </div>
               <div class = "col-lg-6" >
-              <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
+                <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
                    <div class = 'carousel-inner' >
+                   
                     <div class = 'carousel-item active' >
-                       <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
-                            <div class = "discount" >40%</div>
-                            <img  src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
-                       </div>
+                        <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
+                            <div class = "discount" >40%</div> 
+                               <img  src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                        </div>
                     </div>
                     <div class = 'carousel-item' >
                        <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
                             <div class = "discount" >40%</div>
-                            <img src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                            <img  src = "images/single_product_2.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
                        </div>
                     </div>
                     <div class = 'carousel-item' >
                        <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal" >
                             <div class = "discount" >40%</div>
-                            <img src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                            <img  src = "images/single_product_3.png" alt = "single_product_image" class = "img-responsive zoom" style = "width:100% !important" />
                        </div>
                     </div>
+                          
                     <!-- Carousel Arrows -->
                     <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -56,7 +58,7 @@
                     </a>
                    </div>
                   </div>
-              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
                   <div id = 'carousel-slider-modal' class = 'carousel slide' data-ride = 'carousel' >
@@ -64,7 +66,7 @@
                     <div class = 'carousel-item active' >
                        <div class = "single_product_image" >
                             <div class = "discount" >40%</div>
-                            <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                            <img src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important"  />
                        </div>
                     </div>
                     <div class = 'carousel-item' >

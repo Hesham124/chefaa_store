@@ -98,7 +98,7 @@ nav ul li a { color : #777; font-weight : bold }
 #store_features #user_infos #login_info div:first-of-type {
     position         : absolute;
     background-color : #FFF;
-    z-index          : 9999;
+    z-index          : 9999999999999 !important;
     width            : 250px;
     padding          : 25px;
     text-align       : center;

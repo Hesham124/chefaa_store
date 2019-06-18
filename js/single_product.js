@@ -50,6 +50,7 @@ $(document).ready(function() {
      $("#carousel-slider .carousel-control-prev").on("click", function() {
 
           var activeProductImage = $(".single_product_images .active");
+
           var activeModalProductImage = $("#carousel-slider-modal .carousel-item.active");
  
           if(!activeProductImage.is(":first-child")) {
@@ -102,4 +103,7 @@ $(document).ready(function() {
 
       // End Adding Class Active On The Clickable Single Product Image 
 
+      /*----------------------*/ 
+
 });
+
