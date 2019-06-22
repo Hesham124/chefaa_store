@@ -132,23 +132,50 @@
     outline : none
 }
 
+/* Start Product Purchasing Details Add To Cart Button Style */
+
 #single_product .single_product_info .product_purchasing_details ul li button {
-    background-color : #37B44E;
-    border           : 2px solid #37B44E;
+    background-color : transparent;
+    border           : 1px solid #37B44E;
     padding          : 8px 35px;
     color            : #FFF;
     cursor           : pointer;
-    outline          : none
+    outline          : none;
+    transition       : 0.8s;
+    position         : relative;
+    overflow         : hidden
 }
+
+#single_product .single_product_info .product_purchasing_details ul li button::before {
+    content       : "";
+    position      : absolute;
+    left          : 0;
+    width         : 100%;
+    height        : 180%;
+    background    : #37B44E;
+    z-index       : -1;
+    transition    : 0.8s ;
+    top           : 0;
+    border-radius : 0 0 50% 50%
+}
+
+#single_product .single_product_info .product_purchasing_details ul li button:hover { color : #37B44E }
+
+#single_product .single_product_info .product_purchasing_details ul li button:hover::before { height : 0% }
+
+/* End Product Purchasing Details Add To Cart Button Style */
 
 #single_product .single_product_info .product_purchasing_details ul li:last-of-type {
     padding : 10px 10px 6px 10px;
     background-color : #ebebeb;
-    border-radius : 50%
+    border-radius : 50%;
+    cursor : pointer
 }
 
-#single_product .single_product_info .product_purchasing_details ul li:last-of-type i { font-size : 25px }
-/******/
+#single_product .single_product_info .product_purchasing_details ul li:last-of-type:hover i { color : red ; transition : 0.8s }
+
+#single_product .single_product_info .product_purchasing_details ul li:last-of-type i { font-size : 25px ; transition : 0.8s  }
+
 #single_product_details { padding : 0 0 45px 0 ; font-size : 17px }
 
 #single_product_details .empty { 

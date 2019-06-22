@@ -123,7 +123,7 @@
       </div>
     </div> -->
 
-    <section id = "slider_and_ads" class = "slider_and_ads" >
+  <section id = "slider_and_ads" class = "slider_and_ads" >
         <div class = "container" >
             <div class = "row" >
               <div class = "col-lg-9" >

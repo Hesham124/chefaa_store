@@ -140,7 +140,7 @@
                                 <button> اضف للعربة </button>
                              </li>
                              <li>
-                                <i class="fa fa-heart-o fa-2x fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-heart fa-2x fa-fw" aria-hidden="true"></i>
                              </li>
                           </ul>
                        </div>
