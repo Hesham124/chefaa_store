@@ -26,7 +26,7 @@
                 </div>
                  <!-- End Carousel Indicators -->
               </div>
-              <div class = "col-lg-6" >
+              <div class = "col-lg-5" >
                 <div id = 'carousel-slider' class = 'carousel slide' data-ride = 'carousel' >
                    <div class = 'carousel-inner' >
                    
@@ -95,7 +95,7 @@
 </div>
                   <!-- -->
               </div>
-              <div class = "col-lg-5" >
+              <div class = "col-lg-6" >
                    <div class = "single_product_info" >
                        <span class = "product_title" > Himalaya</span> 
                        <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
