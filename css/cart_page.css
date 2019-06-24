@@ -341,4 +341,60 @@
 
 /* End Fav products Style */
 
+/* Start Page Responsive */
+
+@media(max-width : 768px) {
+    
+    #cart_page_shopping_products .purchase_info ul li:not(:last-child), 
+    #cart_page_fav_products .purchase_info ul li:not(:last-child){
+         margin-left : 7% !important
+    }
+
+    #cart_page_shopping_products #other_options , 
+    #cart_page_fav_products #other_options{
+         margin-top : 2%
+    }
+
+    #cart_page_shopping_products .invoice_confirm {
+        margin-top : 25% !important
+    }
+
+}
+
+@media(max-width : 375px) {
+    
+    #cart_page_shopping_products .purchase_info , #cart_page_fav_products .purchase_info { 
+        text-align : center !important 
+    }
+
+    #cart_page_shopping_products .final_price , #cart_page_fav_products .final_price {
+         text-align : center !important;
+         margin : 30% 0 !important
+    }
+
+    #cart_page_shopping_products #other_options , #cart_page_fav_products #other_options { 
+        text-align : center !important 
+    }
+
+}
+
+@media(max-width : 414px) {
+    
+    #cart_page_shopping_products .purchase_info , #cart_page_fav_products .purchase_info { 
+        text-align : center !important 
+    }
+
+    #cart_page_shopping_products .final_price , #cart_page_fav_products .final_price {
+         text-align : center !important;
+         margin : 30% 0 !important
+    }
+
+    #cart_page_shopping_products #other_options , #cart_page_fav_products #other_options { 
+        text-align : center !important 
+    }
+
+}
+
+/* End Page Responsive */
+
 /* End Css Code */
