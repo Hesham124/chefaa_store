@@ -13,7 +13,7 @@
                 <div class = "shopping_card" >
                     <ul>
                        <li>
-                          <a href = "" >
+                          <a href = "cart_page.php" >
                              <span>
                                  <i class="fa fa-long-arrow-right fa-fw" aria-hidden="true"></i>
                              </span>
