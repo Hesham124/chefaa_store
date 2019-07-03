@@ -193,4 +193,7 @@
 <!-- Start Calling JQuery Easing Library -->
 <script src = "js/jquery.easing.1.3.min.js" ></script>
 <!-- End Calling JQuery Easing Library -->
+<!-- Start Calling JQuery Validation plugin -->
+<script src = "js/jquery.validate.min.js" ></script>
+<!-- End Calling JQuery Validation Plugin -->
 <script src = "js/checkout.js" ></script> <!-- Checkout JS File -->
