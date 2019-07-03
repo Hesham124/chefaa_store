@@ -15,38 +15,55 @@
 <div class="modal fade" id="add_new_location" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
+     <!--  Start Modal Header -->
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel"> اضافة عنوان </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <!-- End Modal Header -->
       <hr />
-      <div class="modal-body">
-        <div id = "new_location_infos" class = "new_location_infos" >
-            <!-- Start Client Name -->
-            <div class = "form-group" >
-                <label for = "client_name" > الاسم </label>
-                <input type = "text" name = "client_name" class = "form-control" id = "client_name" placeholder = "الاسم" />
+      
+      <form action = "" method = "post" enctype = "multipart/form-data" >
+
+            <!-- Start Modal Body -->
+
+            <div class="modal-body">
+                <div id = "new_location_infos" class = "new_location_infos" >
+                        <!-- Start Client Name -->
+                        <div class = "form-group" >
+                            <label for = "client_name" > الاسم </label>
+                            <input type = "text" name = "client_name" class = "form-control" id = "client_name" placeholder = "الاسم" />
+                        </div>
+                        <!-- End Client Name -->
+                        <!-- Start Client Address -->
+                        <div class = "form-group" >
+                            <label for = "client_address" > العنوان </label>
+                            <textarea name = "client_address" class = "form-control" id = "client_addresss" rows = "3" placeholder = "العنوان" ></textarea>
+                        </div>
+                        <!-- End Client Address -->
+                        <!-- Start Client Phone Number -->
+                        <div class = "form-group" >
+                            <label for = "client_phone" > رقم الاتصال  </label>
+                            <input type = "text" name = "client_phone" id = "client_phone" class = "form-control" placeholder = "رقم الاتصال" maxlength = "11" />
+                        </div>
+                        <!-- End Client Phone Number -->
+                </div>
             </div>
-            <!-- End Client Name -->
-            <!-- Start Client Address -->
-            <div class = "form-group" >
-                <label for = "client_address" > العنوان </label>
-                <textarea name = "client_address" class = "form-control" id = "client_addresss" rows = "3" placeholder = "العنوان" ></textarea>
+
+            <!-- End Modal Body -->
+            
+            <!-- Start Modal Footer -->
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary"> اضافة عنوان </button>
             </div>
-            <!-- End Client Address -->
-            <!-- Start Client Phone Number -->
-            <div class = "form-group" >
-                <label for = "client_phone" > رقم الاتصال  </label>
-                <input type = "text" name = "client_phone" id = "client_phone" class = "form-control" placeholder = "رقم الاتصال" maxlength = "11" />
-            </div>
-            <!-- End Client Phone Number -->
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary"> اضافة عنوان </button>
-      </div>
+            
+            <!-- End Modal Footer -->
+
+      </form>
+
     </div>
   </div>
 </div>

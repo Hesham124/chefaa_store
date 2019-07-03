@@ -180,8 +180,7 @@
     text-align: center;
     line-height: 55px;
     border-radius: 50%;
-    color: #FFF;
-    z-index : 99999
+    color: #FFF
 }
 
 #purchase_form .add_location {
@@ -241,13 +240,13 @@
 
 .modal .modal-footer button {
     display          : block;
-    width            : 100%;
     background-color : #37B44E;
     border           : 1px solid #37B44E;
     color            : #FFF;
     cursor           : pointer;
     outline          : none;
     transition       : 0.8s;
+    margin           : auto
 }
 
 .modal .modal-footer button:hover , .modal .modal-footer button:focus {
