@@ -35,5 +35,229 @@
     font-size : 18px
 }
 
+/* Start Purchase Form Style */
+
+#purchase_form form {
+    position : relative;
+    text-align : center
+}
+
+#purchase_form #progressbar {
+    overflow : hidden;
+    counter-reset : step;
+    padding : 20px 0;
+    background-color : #F5F5F5
+}
+
+#purchase_form #progressbar li {
+    color : #262626;
+    font-size : 9px;
+    width : 33.33333%;
+    float : right;
+    position : relative;
+    direction : ltr !important
+}
+
+#purchase_form #progressbar li span {
+    display : inline-block;
+    margin-right : 1%;
+    font-size : 18px;
+    color : #777;
+    font-weight : bold
+}
+
+#purchase_form #progressbar li:after {
+    content : counter(step);
+    counter-increment : step;
+    width : 30px;
+    height : 30px;
+    line-height : 22px;
+    display : inline-block;
+    font-size : 15px;
+    color : #262626;
+    background-color : #FFF;
+    border-radius : 50%;
+    padding : 5px;
+    font-weight : bold
+}
+
+#purchase_form #progressbar li:before {
+    content : "";
+    height : 3px;
+    position : absolute;
+    background-color : #DDD;
+    top : 45%;
+    z-index : 1
+}
+
+#purchase_form #progressbar li:nth-child(1):before { left : -33% ; width : 70% }
+
+#purchase_form #progressbar li:nth-child(2):before { left : -34% ; width : 68% }
+
+#purchase_form #progressbar li:last-child:before { content : none }
+
+#purchase_form #progressbar li.active:after { background :#37B44E;color : white } 
+
+/* End Purchase Form Style */
+
+/* Start Purchase Form Responsive Modifications */
+
+@media(max-width : 1024px) {
+
+    #purchase_form #progressbar li:nth-child(1):before { left : -31% !important ; width : 65% !important}
+
+    #purchase_form #progressbar li:nth-child(2):before { left : -31% !important; width : 62% !important}
+
+    #purchase_form #progressbar li:before { top : 50% !important }
+
+} /*-----------------------*/
+
+@media(max-width : 768px) {
+
+    #purchase_form #progressbar li:nth-child(1):before { left : -25% !important ; width : 55% !important}
+
+    #purchase_form #progressbar li:nth-child(2):before { left : -25% !important; width : 51% !important}
+
+    #purchase_form #progressbar li span { font-size : 15px !important }
+
+} /*-----------------------*/
+
+@media(max-width : 375px) { #purchase_form #progressbar li:before { content : none !important } #purchase_form #progressbar li span { font-size : 13px !important } }
+
+@media(max-width : 414px) { #purchase_form #progressbar li:before { content : none !important } #purchase_form #progressbar li span { font-size : 13px !important } }
+
+/* End Purchase Form Responsive Modifications */
+
+/* Start Step Content Style */
+
+#purchase_form .step_content {
+    padding : 50px 0
+}
+
+#purchase_form .location_infos {
+   padding : 25px;
+   text-align : right;
+   box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+   position : relative
+}
+
+#purchase_form .location_infos h6 {
+     color : #DDD;
+     font-size : 16px;
+     font-weight : bold
+}
+
+#purchase_form .location_infos p {
+     color : #887d7d;
+     font-size : 16px;
+     font-weight : bold
+}
+
+#purchase_form .location_info { margin-top : 5% }
+
+#purchase_form .location_infos .location_icons {
+    overflow : hidden
+}
+
+#purchase_form .location_infos .location_icons .location_icon , 
+#purchase_form .location_infos .location_icons .dots_icons {
+    width : 50%;
+    float : right
+} 
+
+#purchase_form .location_infos .location_icons .location_icon { text-align : right }
+
+#purchase_form .location_infos .location_icons .dots_icon { text-align : left }
+
+#purchase_form .location_infos i { font-size : 25px }
+
+#purchase_form #verified_location {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #37B44E;
+    left: 43%;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    color: #FFF;
+    z-index : 99999
+}
+
+#purchase_form .add_location {
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    cursor : pointer
+}
+
+#purchase_form .add_location span {
+    display : inline-block;
+    width : 55px;
+    height : 55px;
+    text-align : center;
+    color : #FFF;
+    border-radius : 50%;
+    background-color : orange ;
+    opacity : 0.7;
+    line-height: 60px;
+    margin-bottom : 3.5%
+}
+
+#purchase_form .add_location p { 
+    font-size : 22px ; 
+    margin-bottom : 0;
+    color : #887d7d
+}
+
+#purchase_form .add_location a {
+    display : block;
+    width : 100%;
+    height : 100%;
+    padding : 29.1% 0;
+    text-decoration: none
+}
+
+/* start model style */
+
+.modal { direction : ltr !important}
+
+.modal .new_location_infos {
+    text-align : right
+}
+
+.modal .new_location_infos label { color : #777 }
+
+.modal .new_location_infos input , .modal .new_location_infos textarea { 
+    text-align : right ;
+    font-size : 15px
+}
+
+.modal .modal-header { margin : auto ; border : none }
+
+.modal .modal-header h5 { color : #555 }
+
+.modal hr { margin : 0 }
+
+.modal .modal-footer { border : none ; margin : auto }
+
+.modal .modal-footer button {
+    display          : block;
+    width            : 100%;
+    background-color : #37B44E;
+    border           : 1px solid #37B44E;
+    color            : #FFF;
+    cursor           : pointer;
+    outline          : none;
+    transition       : 0.8s;
+}
+
+.modal .modal-footer button:hover , .modal .modal-footer button:focus {
+    background-color : #FFF !important ; 
+    color : #37B44E !important ;
+    transition : 0.8s !important
+}
+
+/* end modal style */
+
+/* End Step Content Style */
 
 /* End Css Code */
