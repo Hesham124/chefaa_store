@@ -57,13 +57,15 @@
             <!-- Start Modal Footer -->
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary"> اضافة عنوان </button>
+                <button type="submit" class="btn btn-primary"> اضافة عنوان </button>
             </div>
             
             <!-- End Modal Footer -->
 
       </form>
-
+      <!-- Start Add Address Status -->
+      <div id = "add_location_result" > </div>
+      <!--  End Add Address Status -->
     </div>
   </div>
 </div>
@@ -163,6 +165,10 @@
                             </a>
                         </div>
                      </div>
+                 </div>
+                 <hr />
+                 <div>
+                    <input type = "button" name = "next" class = "next action-button" value = "طرق الدفع" />
                  </div>
              </div>
          </div>

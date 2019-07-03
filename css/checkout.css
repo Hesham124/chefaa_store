@@ -215,9 +215,35 @@
     text-decoration: none
 }
 
+#purchase_form hr {
+    margin: 6% 0 2% 0;
+    height: 0px;
+    background-color: #c2b7b7
+}
+
+#purchase_form hr + div { text-align : left }
+
+#purchase_form hr + div input {
+    background-color : #37B44E;
+    border           : 1px solid #37B44E;
+    padding          : 8px 50px;
+    color            : #FFF;
+    cursor           : pointer;
+    outline          : none;
+    transition       : 0.8s
+}
+
+#purchase_form hr + div input:hover {
+    transition : 0.8s;
+    color : #37B44E;
+    background-color : #FFF
+}
+
 /* start model style */
 
 .modal { direction : ltr !important}
+
+.modal .modal-content { padding-bottom : 25px !important }
 
 .modal .new_location_infos {
     text-align : right
@@ -254,6 +280,8 @@
     color : #37B44E !important ;
     transition : 0.8s !important
 }
+
+.modal #add_location_result { text-align : center }
 
 /* end modal style */
 
