@@ -215,6 +215,12 @@
     text-decoration: none
 }
 
+.add_address_error_message {
+    font-size: 15px;
+    color: darkred;
+    font-weight: bold
+}
+
 #purchase_form hr {
     margin: 6% 0 2% 0;
     height: 0px;
@@ -239,7 +245,7 @@
     background-color : #FFF
 }
 
-/* start model style */
+/* start modal style */
 
 .modal { direction : ltr !important}
 
