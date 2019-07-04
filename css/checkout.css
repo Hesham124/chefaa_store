@@ -134,6 +134,8 @@
     padding : 50px 0 65px 0
 }
 
+/* Start Add Location Step Content Style */
+
 #purchase_form .location_infos {
    padding : 25px;
    text-align : right;
@@ -245,7 +247,53 @@
     background-color : #FFF
 }
 
-/* start modal style */
+/* End Add Location Step Content Style */
+
+/* Start Add location Step Responsive Content Style */
+
+@media(max-width : 1024px) {
+
+    #purchase_form .add_location a { padding : 35% 0 !important }
+
+} 
+
+@media(max-width : 768px) {
+
+     #purchase_form .add_location a { padding : 31% 0 !important }
+
+     #purchase_form hr + div { text-align : center !important }
+
+} 
+
+@media(max-width : 375px) {
+
+    #purchase_form .location_infos { margin-bottom : 10% !important }
+
+    #purchase_form hr { margin-bottom : 5% !important }
+
+    #purchase_form .step_content { padding-bottom : 40px !important }
+
+}
+
+@media(max-width : 414px) {
+
+    #purchase_form .location_infos { margin-bottom : 10% !important }
+
+    #purchase_form hr { margin-bottom : 5% !important }
+
+    #purchase_form .step_content { padding-bottom : 40px !important }
+
+}
+
+@media(max-width : 320px) {
+
+    #purchase_form .location_infos { margin-bottom : 15% !important }
+
+}
+
+/* End Add location Step Responsive Content Style */
+
+/* start modal [ Add Address ] style */
 
 .modal { direction : ltr !important}
 
@@ -289,7 +337,7 @@
 
 .modal #add_location_result { text-align : center }
 
-/* end modal style */
+/* end modal [ Add Address ] style */
 
 /* End Step Content Style */
 

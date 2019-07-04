@@ -40,7 +40,7 @@
                         <!-- Start Client Address -->
                         <div class = "form-group" >
                             <label for = "client_address" > العنوان </label>
-                            <textarea name = "client_address" class = "form-control" id = "client_addresss" rows = "3" placeholder = "العنوان" ></textarea>
+                            <textarea name = "client_address" class = "form-control" id = "client_address" rows = "3" placeholder = "العنوان" ></textarea>
                         </div>
                         <!-- End Client Address -->
                         <!-- Start Client Phone Number -->
@@ -122,7 +122,7 @@
          <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
-                     <div class = "col-lg-4" >
+                     <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
                         <div class = "location_infos" >
                             <!-- Start Location Icons -->
                             <div class = "location_icons" >
@@ -155,7 +155,7 @@
                             <!-- End Verified Location -->
                         </div>
                      </div>
-                     <div class = "col-lg-4" >
+                     <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
                         <div class = "add_location" >
                             <a data-toggle="modal" data-target="#add_new_location" >
                                 <span>
