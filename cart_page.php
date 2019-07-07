@@ -47,12 +47,8 @@
                                                     <span> X </span>
                                                 </li>
                                                 <li>
+                                                    <span> 1 </span>
                                                     <span> كمية </span>
-                                                    <select>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                    </select>
                                                 </li>
                                             </ul>
                                         </div>

@@ -249,6 +249,14 @@
 
 /* End Add Location Step Content Style */
 
+/* Start Order Confirmation Step Content Style */
+
+.step_content .products .heading {
+    text-align : right !important
+}
+
+/* End Order Confirmation Step Content Style */
+
 /* Start Add location Step Responsive Content Style */
 
 @media(max-width : 1024px) {

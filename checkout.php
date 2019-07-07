@@ -117,25 +117,25 @@
              </li>
          </ul>
 
-         <!-- Start Steps Content -->
+         <!-- Start [Address] Steps Content -->
 
-         <div class = "step_content" >
+         <!-- <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
                      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-                        <div class = "location_infos" >
+                        <div class = "location_infos" > -->
                             <!-- Start Location Icons -->
-                            <div class = "location_icons" >
+                           <!-- <div class = "location_icons" >
                                 <div class = "location_icon" >
                                     <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
                                 </div>
                                 <div class = "dots_icon" >
                                     <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
                                 </div>
-                            </div> 
+                            </div> -->
                             <!-- End Location Icons -->
                             <!-- Start Location Info -->
-                            <div class = "location_info" >
+                            <!-- <div class = "location_info" >
                                 <h6> الاسم </h6>
                                 <p> محمد احمد عبد الحميد </p>
                                 <h6> العنوان </h6>
@@ -144,18 +144,18 @@
                                 </p>
                                 <h6>  رقم الاتصال </h6>
                                 <p> 07775200 </p>
-                            </div>
+                            </div> -->
                             <!-- End Location Info -->
                             <!-- Start Verified Location -->
-                            <div id = "verified_location" title = "verified" >
+                           <!-- <div id = "verified_location" title = "verified" >
                                 <span>
                                    <i class="fa fa-check" aria-hidden="true"></i>
                                 </span>
-                            </div>
+                            </div> -->
                             <!-- End Verified Location -->
-                        </div>
-                     </div>
-                     <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
+                        <!-- </div> -->
+                     <!-- </div> -->
+                    <!-- <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
                         <div class = "add_location" >
                             <a data-toggle="modal" data-target="#add_new_location" >
                                 <span>
@@ -171,9 +171,30 @@
                     <input type = "button" name = "next" class = "next action-button" value = "طرق الدفع" />
                  </div>
              </div>
-         </div>
+         </div> --> 
  
-         <!-- End Steps Content -->
+         <!-- End [Address] Steps Content -->
+
+         <!-- Start Order Confirmation Step Content -->
+
+         <div class = "step_content" >
+             <div class = "container" >
+                 <div class = "row" >
+                     <div class = "col-lg-8" >
+                        <div class = "products" >
+                             <div class = "heading" >
+                                 <h6> المنتجات </h6>
+                             </div>
+                        </div>
+                     </div>
+                     <div class = "col-lg-4" >
+                         
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- End Order Confirmation Step Content -->
 
          <!-- End Form Steps -->
       </form>
