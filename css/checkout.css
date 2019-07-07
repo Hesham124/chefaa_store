@@ -306,6 +306,36 @@
     font-size: 25px
 }
 
+.step_content .total_price { margin-bottom : 20% }
+
+.step_content .total_price h6 { text-align : right ; margin-bottom : 6% }
+
+.step_content .total_price .price_table {
+    display : table;
+    width : 100%;
+    padding : 18px 10px;
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    margin-top : 9%
+}
+
+.step_content .total_price .price_table .price_row { display : table-row }
+
+.step_content .total_price .price_table .price_row:last-of-type .price_cell { color : #262626; font-weight : bold }
+
+.step_content .total_price .price_table .price_row:not(:last-child) .price_cell { font-size : 18px ; padding : 8px !important }
+
+.step_content .total_price .price_table .price_cell {
+    display : table-cell;
+    padding : 5px;
+    color : #777
+}
+
+.step_content .total_price .price_table .price_row .price_cell:first-of-type { text-align : right }
+
+.step_content .total_price .price_table .price_row .price_cell:not(:first-of-type) { text-align : left }
+
+.step_content .shipping_infos h6 { text-align : right ; margin-bottom : 6% }
+
 /* End Order Confirmation Step Content Style */
 
 /* Start Add location Step Responsive Content Style */
