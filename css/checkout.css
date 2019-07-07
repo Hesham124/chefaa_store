@@ -252,7 +252,58 @@
 /* Start Order Confirmation Step Content Style */
 
 .step_content .products .heading {
-    text-align : right !important
+    text-align : right !important;
+    margin-bottom : 4%
+}
+
+.step_content .products .purchased_products .purchased_product {
+    padding : 23px;
+    box-shadow: 1px 5px 10px 2px #EEE;
+    margin-bottom: 3%
+}
+
+.step_content .products .purchased_products .purchased_product .product_image {
+    padding : 20px;
+    background-color : #F8F8F8
+}
+
+.step_content .products .purchased_products .purchased_product .product_info h6 , 
+.step_content .products .purchased_products .purchased_product .product_info p { text-align : right }
+
+.step_content .products .purchased_products .purchased_product .product_info h6 { color : #D6D6D6 }
+
+.step_content .products .purchased_products .purchased_product .product_info p {
+    color: #262626;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.step_content .products .purchased_products .purchased_product .product_info ul { text-align : right }
+
+.step_content .products .purchased_products .purchased_product .product_info ul li { display : inline-block }
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:not(:last-child) { margin-left : 10% }
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:first-child { text-align : center }
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:first-child del { color : #B0B0B0 } 
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:first-child span {
+    display: block;
+    color: #262626;
+    font-weight: bold
+}
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:nth-child(2) span { color : #262626 }
+
+.step_content .products .purchased_products .purchased_product .product_info ul li:last-child { font-weight : bold;color : #D6D6D6 }
+
+.step_content .products .purchased_products .purchased_product .price { text-align : left;margin-top : 115% }
+
+.step_content .products .purchased_products .purchased_product .price span {
+    font-weight: bold;
+    color: #262626;
+    font-size: 25px
 }
 
 /* End Order Confirmation Step Content Style */
