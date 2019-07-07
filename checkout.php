@@ -185,6 +185,38 @@
                              <div class = "heading" >
                                  <h6> المنتجات </h6>
                              </div>
+                             <div class = "purchased_products" >
+                                  <!-- Start Purchased Product -->
+                                  <div class = "purchased_product" >
+                                       <div class = "row" >
+                                           <div class = "col-lg-3" >
+                                              <div class = "product_image" >
+                                              </div>
+                                           </div>
+                                           <div class = "col-lg-2" > </div>
+                                           <div class = "col-lg-5" >
+                                               <div class = "product_info" >
+                                                    <h6> Himalaya </h6>
+                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
+                                                    <ul>
+                                                        <li>
+                                                            <del> 50 جنيه  </del>
+                                                            <span> 250 جنيه  </span>
+                                                        </li>
+                                                        <li>
+                                                            <span> X </span>
+                                                        </li>
+                                                        <li>
+                                                           <span> 1 </span>
+                                                           <span> كمية </span>
+                                                        </li>
+                                                    </ul>
+                                               </div>
+                                           </div>
+                                       </div>
+                                  </div>
+                                  <!-- End Purchased Product -->
+                             </div>
                         </div>
                      </div>
                      <div class = "col-lg-4" >
