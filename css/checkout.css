@@ -380,6 +380,68 @@
 
 /* End Order Confirmation Step Content Style */
 
+/* Start Order Confirmation Step Responsive Content Style */
+
+@media(max-width : 1024px) {
+
+    .step_content .products .purchased_products .purchased_product .price { margin-top : 40% !important }
+
+    .step_content .products .purchased_products .purchased_product .product_info ul { margin-top : -7% !important }
+
+    .step_content .payment_method ul  { width : 60% !important }
+
+    .step_content .payment_method ul li:first-child { margin-left : 4% !important }
+
+}
+
+@media(max-width : 768px) {
+
+    .step_content .products .purchased_products .purchased_product .product_info h6 , 
+
+    .step_content .products .purchased_products .purchased_product .product_info p { text-align : center !important }
+ 
+    .step_content .products .purchased_products .purchased_product .product_info ul { margin-top : 0 !important;text-align : center !important }
+
+    .purchased_products .purchased_product .product_image { margin-bottom : 8% !important } 
+
+    .step_content .products .purchased_products .purchased_product .price { text-align : center !important;margin-top : 15% !important }
+
+    .step_content .total_price .price_table .price_row:not(:last-child) .price_cell { padding : 5px !important }
+
+    .step_content .payment_method ul { width : 81% !important }
+
+    .step_content .total_price { margin-bottom : 15% !important }
+
+    .step_content .shipping_infos { margin-bottom : 10% !important }
+
+}
+
+@media(max-width : 375px) {
+
+    .step_content .payment_method_button , .step_content .confirm_order { float : none !important }
+
+    .step_content .payment_method_button { margin-bottom : 5% !important }
+
+    .step_content .total_price { margin-top : 8% }
+
+    .step_content .products .purchased_products .purchased_product { margin-bottom : 6% !important }
+
+}
+
+@media(max-width : 414px) {
+
+    .step_content .payment_method_button , .step_content .confirm_order { float : none !important }
+
+    .step_content .payment_method_button { margin-bottom : 5% !important }
+
+    .step_content .total_price { margin-top : 8% }
+
+    .step_content .products .purchased_products .purchased_product { margin-bottom : 6% !important }
+
+}
+
+/* End Order Confirmation Step Responsive Content Style */
+
 /* Start Add location Step Responsive Content Style */
 
 @media(max-width : 1024px) {

@@ -180,7 +180,7 @@
          <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
-                     <div class = "col-lg-8" >
+                     <div class = "col-xs-12 col-md-8" >
                         <div class = "products" >
                              <div class = "heading" >
                                  <h6> المنتجات </h6>
@@ -297,7 +297,7 @@
                              </div>
                         </div>
                      </div>
-                     <div class = "col-lg-4" >
+                     <div class = "col-xs-12 col-md-4" >
                          <!-- Start Total Price Section -->
                          <div class = "total_price" >
                              <h6> الحساب الكلى </h6>
@@ -342,7 +342,7 @@
                              <div class = "payment_method" >
                                 <ul>
                                     <li>
-                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                       <i class="fa fa-credit-card" aria-hidden="true"></i>
                                     </li>
                                     <li>
                                         <span> 5478 **** *** *** </span>
