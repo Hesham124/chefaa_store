@@ -253,7 +253,8 @@
 
 .step_content .products .heading {
     text-align : right !important;
-    margin-bottom : 4%
+    margin-bottom : 4%;
+    color : #777
 }
 
 .step_content .products .purchased_products .purchased_product {
@@ -306,9 +307,9 @@
     font-size: 25px
 }
 
-.step_content .total_price { margin-bottom : 20% }
+.step_content .total_price { margin-bottom : 13% }
 
-.step_content .total_price h6 { text-align : right ; margin-bottom : 6% }
+.step_content .total_price h6 { text-align : right ; margin-bottom : 6% ; color : #777 }
 
 .step_content .total_price .price_table {
     display : table;
@@ -334,7 +335,48 @@
 
 .step_content .total_price .price_table .price_row .price_cell:not(:first-of-type) { text-align : left }
 
-.step_content .shipping_infos h6 { text-align : right ; margin-bottom : 6% }
+.step_content .shipping_infos { margin-bottom : 6% }
+
+.step_content .shipping_infos h6 { text-align : right ; margin-bottom : 6% ; color : #777 }
+
+.step_content .payment h6 { text-align : right ; margin-bottom  : 6% ; color : #777 }
+
+.step_content .payment_method {
+    background-color : #FFF;
+    padding : 15px 10px;
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1)
+}
+
+.step_content .payment_method ul { width : 50% }
+
+.step_content .payment_method ul li { display : inline-block }
+
+.step_content .payment_method ul li:first-child { margin-left : 5% }
+
+.step_content .payment_method ul li:first-child i { color : #66C95D }
+
+.step_content .payment_method_button { font-weight : bold ; background-color : orange !important ; opacity : 0.7 !important ; border : 1px solid rgba(255,165,0,0.6) !important ; float : right }
+
+.step_content .payment_method_button:hover { background-color : #FFF !important ; color : rgba(255,165,0,0.7) !important }
+
+.step_content .confirm_order {
+    float            : left;
+    background-color : #37B44E;
+    border           : 1px solid #37B44E;
+    color            : #FFF;
+    cursor           : pointer;
+    outline          : none;
+    transition       : 0.8s;
+    margin           : auto;
+    padding          : 8px 70px;
+    font-weight      : bold
+}
+
+.step_content .confirm_order:hover {
+    background-color : #FFF;
+    color : #37B44E;
+    transition : 0.8s
+}
 
 /* End Order Confirmation Step Content Style */
 

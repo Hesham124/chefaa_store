@@ -336,7 +336,28 @@
                              </div>
                          </div>
                          <!-- End Shipping Infos Section -->
+                         <!-- Start Payment Method -->
+                         <div class = "payment" >
+                             <h6> طريقة الدفع </h6>
+                             <div class = "payment_method" >
+                                <ul>
+                                    <li>
+                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <span> 5478 **** *** *** </span>
+                                    </li>
+                                </ul>
+                             </div>
+                         </div>
+                         <!-- End Payment Method -->
                      </div>
+                 </div>
+                 <hr />
+                 <div class = "last_step" >
+                    <input type = "button" name = "previous" class = "previous action-button payment_method_button" value = "طرق الدفع" />
+                    <button class = "confirm_order" > التاكيد </button>
+                    <div class = "clearfix" style = "clear:both !important" ></div>
                  </div>
              </div>
          </div>
