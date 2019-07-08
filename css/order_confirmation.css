@@ -1,0 +1,69 @@
+/* Start Css Code */
+
+#confirmation_message { padding : 15% 0 }
+
+#confirmation_message .message_content { text-align : center }
+
+#confirmation_message .message_content span {
+    display          : inline-block;
+    background-color : #37B44E;
+    color            : #FFF;
+    text-align       : center;
+    padding          : 20px 25px;
+    font-size        : 35px;
+    border-radius    : 50%;
+    margin-bottom    : 2%
+}
+
+#confirmation_message .message_content p { font-weight : bold; color : #262626 }
+
+#confirmation_message .message_content p:after {
+    content    : "";
+    display    : block;
+    border     : 1px solid #262626;
+    width      : 12%;
+    margin     : 3% auto
+}
+
+#confirmation_message .message_content button {
+    display          : block;
+    background-color : #37B44E;
+    border           : 1px solid #37B44E;
+    color            : #FFF;
+    cursor           : pointer;
+    outline          : none;
+    transition       : 0.8s;
+    margin           : auto;
+    padding          : 8px 50px;
+    font-weight      : bold
+}
+
+#confirmation_message .message_content button:hover {
+    background-color : #FFF;
+    color            : #37B44E;
+    transition       : 0.8s 
+}
+
+#confirmation_message .message_content button:focus { outline : none !important }
+
+/* Start Responsive Of Order Confirmation Message */
+
+@media(max-width : 375px) {
+
+    #confirmation_message .message_content span { margin-bottom : 6% !important }
+
+    #confirmation_message .message_content p:after { margin-top : 5% !important ; width : 30% !important }
+
+}
+
+@media(max-width : 414px) {
+
+    #confirmation_message .message_content span { margin-bottom : 6% !important }
+
+    #confirmation_message .message_content p:after { margin-top : 5% !important ; width : 30% !important }
+
+}
+
+/* End Responsive Of Order Confirmation Message */
+
+/* End Css Code */
