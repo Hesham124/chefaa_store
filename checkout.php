@@ -34,19 +34,19 @@
                         <!-- Start Client Name -->
                         <div class = "form-group" >
                             <label for = "client_name" > الاسم </label>
-                            <input type = "text" name = "client_name" class = "form-control" id = "client_name" placeholder = "الاسم" />
+                            <input type = "text" name = "client_name" class = "form-control" id = "client_name" placeholder = "الاسم" maxlength = "20" />
                         </div>
                         <!-- End Client Name -->
                         <!-- Start Client Address -->
                         <div class = "form-group" >
                             <label for = "client_address" > العنوان </label>
-                            <textarea name = "client_address" class = "form-control" id = "client_address" rows = "3" placeholder = "العنوان" ></textarea>
+                            <textarea name = "client_address" class = "form-control" id = "client_address" rows = "3" placeholder = "العنوان" maxlength = "85" ></textarea>
                         </div>
                         <!-- End Client Address -->
                         <!-- Start Client Phone Number -->
                         <div class = "form-group" >
                             <label for = "client_phone" > رقم الاتصال  </label>
-                            <input type = "text" name = "client_phone" id = "client_phone" class = "form-control" placeholder = "رقم الاتصال" maxlength = "11" />
+                            <input type = "text" name = "client_phone" id = "client_phone" class = "form-control" placeholder = "رقم الاتصال" maxlength = "11" onkeypress = "return isNumberKey(event)" />
                         </div>
                         <!-- End Client Phone Number -->
                 </div>
@@ -119,23 +119,23 @@
 
          <!-- Start [Address] Steps Content -->
 
-         <!-- <div class = "step_content" >
+          <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
                      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-                        <div class = "location_infos" > -->
+                        <div class = "location_infos" > 
                             <!-- Start Location Icons -->
-                           <!-- <div class = "location_icons" >
+                            <div class = "location_icons" >
                                 <div class = "location_icon" >
                                     <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
                                 </div>
                                 <div class = "dots_icon" >
                                     <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
                                 </div>
-                            </div> -->
+                            </div> 
                             <!-- End Location Icons -->
                             <!-- Start Location Info -->
-                            <!-- <div class = "location_info" >
+                             <div class = "location_info" >
                                 <h6> الاسم </h6>
                                 <p> محمد احمد عبد الحميد </p>
                                 <h6> العنوان </h6>
@@ -144,18 +144,18 @@
                                 </p>
                                 <h6>  رقم الاتصال </h6>
                                 <p> 07775200 </p>
-                            </div> -->
+                            </div> 
                             <!-- End Location Info -->
                             <!-- Start Verified Location -->
-                           <!-- <div id = "verified_location" title = "verified" >
+                            <div id = "verified_location" title = "verified" >
                                 <span>
                                    <i class="fa fa-check" aria-hidden="true"></i>
                                 </span>
-                            </div> -->
+                            </div>
                             <!-- End Verified Location -->
-                        <!-- </div> -->
-                     <!-- </div> -->
-                    <!-- <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
+                         </div>
+                     </div>
+                     <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
                         <div class = "add_location" >
                             <a data-toggle="modal" data-target="#add_new_location" >
                                 <span>
@@ -171,13 +171,13 @@
                     <input type = "button" name = "next" class = "next action-button" value = "طرق الدفع" />
                  </div>
              </div>
-         </div> --> 
+         </div>
  
          <!-- End [Address] Steps Content -->
 
          <!-- Start Order Confirmation Step Content -->
 
-         <div class = "step_content" >
+        <!--  <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
                      <div class = "col-xs-12 col-md-8" >
@@ -185,9 +185,9 @@
                              <div class = "heading" >
                                  <h6> المنتجات </h6>
                              </div>
-                             <div class = "purchased_products" >
+                             <div class = "purchased_products" > -->
                                   <!-- Start Purchased Product -->
-                                  <div class = "purchased_product" >
+                                  <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -220,10 +220,10 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div>
+                                  </div> -->
                                   <!-- End Purchased Product -->
                                   <!-- Start Purchased Product -->
-                                  <div class = "purchased_product" >
+                                 <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -256,10 +256,10 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div>
+                                  </div> -->
                                   <!-- End Purchased Product -->
                                   <!-- Start Purchased Product -->
-                                  <div class = "purchased_product" >
+                                  <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -292,17 +292,17 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div>
+                                  </div> -->
                                   <!-- End Purchased Product -->
-                             </div>
+                             <!-- </div>
                         </div>
                      </div>
-                     <div class = "col-xs-12 col-md-4" >
+                     <div class = "col-xs-12 col-md-4" > -->
                          <!-- Start Total Price Section -->
-                         <div class = "total_price" >
-                             <h6> الحساب الكلى </h6>
+                         <!--<div class = "total_price" >
+                             <h6> الحساب الكلى </h6> -->
                              <!-- Start Table -->
-                             <div class = "price_table" >
+                             <!--<div class = "price_table" >
                                 <div class = "price_row" >
                                     <div class = "price_cell" > المجموع </div>
                                     <div class = "price_cell" > 750 جنيه </div>
@@ -315,12 +315,12 @@
                                     <div class = "price_cell" > المجموع الكلى </div>
                                     <div class = "price_cell" > 750 جنيه </div>
                                 </div>
-                             </div>
+                             </div> -->
                              <!-- End Table -->
-                         </div>
+                         <!-- </div> -->
                          <!-- End Total Price Section -->
                          <!-- Start Shipping Infos Section -->
-                         <div class = "shipping_infos" >
+                         <!-- <div class = "shipping_infos" >
                              <h6> يتم الشحن الى </h6>
                              <div class = "location_infos" >
                                 <div class = "location_info" >
@@ -334,10 +334,10 @@
                                     <p> 07775200 </p>
                                 </div>
                              </div>
-                         </div>
+                         </div> -->
                          <!-- End Shipping Infos Section -->
                          <!-- Start Payment Method -->
-                         <div class = "payment" >
+                         <!-- <div class = "payment" >
                              <h6> طريقة الدفع </h6>
                              <div class = "payment_method" >
                                 <ul>
@@ -349,9 +349,9 @@
                                     </li>
                                 </ul>
                              </div>
-                         </div>
+                         </div> -->
                          <!-- End Payment Method -->
-                     </div>
+                     <!--</div>
                  </div>
                  <hr />
                  <div class = "last_step" >
@@ -360,14 +360,14 @@
                     <div class = "clearfix" style = "clear:both !important" ></div>
                  </div>
              </div>
-         </div>
+         </div> -->
 
          <!-- End Order Confirmation Step Content -->
 
          <!-- End Form Steps -->
-      </form>
+      <!--</form> -->
       <!-- End Purchase Form -->
-</section>
+<!-- </section> -->
 
 <!-- End Purchasing Form -->
 
@@ -386,3 +386,16 @@
 <script src = "js/jquery.validate.min.js" ></script>
 <!-- End Calling JQuery Validation Plugin -->
 <script src = "js/checkout.js" ></script> <!-- Checkout JS File -->
+
+<script>
+    // Start Function [ isNumberKey ] That Allows To Enter Numbers Only
+
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+           return false; 
+           return true;
+    }
+
+    // End Function [ isNumberKey ] That Allows To Enter Numbers Only
+</script>

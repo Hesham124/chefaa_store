@@ -12,7 +12,7 @@ $(document).ready(function() {
 
             client_name : {
                 required  : true,
-                maxlength : 20
+                minlength : 20
             } 
 
             // End Client Name Validation
@@ -23,8 +23,7 @@ $(document).ready(function() {
 
             client_address : {
                 required  : true,
-                minlength : 40,
-                maxlength : 85
+                minlength : 40
             }
 
             // End Client Address Validation
@@ -35,7 +34,6 @@ $(document).ready(function() {
 
             client_phone : {
                required  : true,
-               number    : true,
                minlength : 11
             }
 
@@ -49,7 +47,7 @@ $(document).ready(function() {
             
             client_name : {
                 required  : "<div class = 'add_address_error_message' >  من فضلك قم بادخال الاسم </div>" ,
-                maxlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال مالايزيد عن 20 حرف  </div>"
+                minlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال 20 حرف على الاقل </div>"
             }
 
             // End Client Name Validation Error Messages 
@@ -60,8 +58,7 @@ $(document).ready(function() {
 
             client_address : {
                 required  : "<div class = 'add_address_error_message' > من فضلك قم بادخال العنوان </div>",
-                minlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال 40 حرف على الاقل </div>",
-                maxlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال ما لايزيد عن 85 حرف </div>"
+                minlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال 40 حرف على الاقل </div>"
             }
 
             // Start Client Address Validation Error Messages
@@ -72,7 +69,6 @@ $(document).ready(function() {
 
             client_phone : {
                  required  : "<div class = 'add_address_error_message' > من فضلك قم بادخال رقم الاتصال </div>",
-                 number    : "<div class = 'add_address_error_message' > من فضلك قم بادخال ارقام فقط  </div>",
                  minlength : "<div class = 'add_address_error_message' > من فضلك ادخل 11 رقم على الاقل </div>"
             }
 
