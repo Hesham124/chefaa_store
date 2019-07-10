@@ -380,6 +380,109 @@
 
 /* End Order Confirmation Step Content Style */
 
+/* Start Payment Methods Step Content Style */
+
+.step_content .payment_ways .heading h6 { text-align : right ; margin-bottom : 4% ; color : #262626 }
+
+.step_content .payment_ways .payment_methods_tabs ul { text-align : right ; margin-bottom : 7% }
+
+.step_content .payment_ways .payment_methods_tabs ul li {
+    display : inline-block;
+    padding : 10px 25px;
+    text-align : center;
+    width : 35%;
+    font-size : 18px;
+    transition : 0.8s
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li span:first-of-type i , 
+.step_content .payment_ways .payment_methods_tabs ul li span:nth-child(2) { transition : 0.8s }
+
+/* Start Style For Active Payment Method */
+
+.step_content .payment_ways .payment_methods_tabs ul li.active {
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    background-color : #FFF; /* for test */
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li.active span:first-of-type i { color : #37B44E }
+
+.step_content .payment_ways .payment_methods_tabs ul li.active span:nth-child(2) {
+    color : #262626;
+    font-weight : bold
+}
+
+/* End Style For Active Payment Method */
+
+/* Start Style For Not Active Payment Method */
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active) {
+    background-color : #F5F5F5;
+    cursor : pointer
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active) span:first-of-type i { color : #DDD }
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active) span:nth-child(2) {
+    color : #DDD;
+    font-weight : bold
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active):hover {
+    transition : 0.8s;
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    background-color : #FFF /* for test */
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active):hover span:first-of-type i { color : #37B44E ; transition : 0.8s }
+
+.step_content .payment_ways .payment_methods_tabs ul li:not(.active):hover span:nth-child(2) { color : #262626 ; transition: 0.8s }
+
+/* End Style For Not Active Payment Method */
+
+.step_content .payment_ways .payment_methods_tabs ul li:first-of-type { margin-left : 1% }
+
+.step_content .payment_ways .payment_methods_tabs ul li span {
+    display : inline-block
+}
+
+.step_content .payment_ways .payment_methods_tabs ul li span:first-of-type { margin-left : 2% }
+
+.step_content .payment_ways .payment_methods_tabs { margin-bottom : 2% /* for test */ }
+
+.step_content .payment_ways #payment_method_1_content ,
+.step_content .payment_ways #payment_method_2_content { 
+    background-color : #FFF;
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    padding : 25px 25px 35px 0;
+ }
+
+ .step_content .payment_ways #payment_method_2_content { min-height : 167px ; text-align : right}
+
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .form-group { text-align : right !important }
+
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .form-group label { color : #262626 }
+
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .form-group input {
+     border : 1px solid #DDD !important;
+     border-radius : 0 !important
+ }
+
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .form-group input::placeholder { color : #262626 !important }
+
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .expiration_date input , 
+ .step_content .payment_ways .payment_methods_content #payment_method_1_content .cvv input { text-align : center }
+
+ .step_content .payment_ways .payment_methods_content > div:not(:first-of-type) { display : none }
+
+/* End Payment Methods Step Content Style */
+
+/* Start Payment Methods Step Responsive Content Style */
+
+
+
+/* End Payment Methods Step Responsive Content Style */
+
 /* Start Order Confirmation Step Responsive Content Style */
 
 @media(max-width : 1024px) {

@@ -80,4 +80,32 @@ $(document).ready(function() {
 
     // End Validation Of Add Address Form
 
+    // Start Switch Tabs Behaviour In Payment Methods Step
+
+    $(".step_content .payment_ways ul li").on("click", function() {
+
+        if(!($(this).hasClass("active"))) {
+
+            // Get The ID Of The Clicked List Item
+
+            var tabId = $(this).attr("id");
+
+            // Add Class Active To The Clicked List Item And Remove It From Its Siblings
+
+            $(this).addClass("active").siblings("li").removeClass("active");
+
+            // Hide All Tabs Contents When Clicking On Any List Item
+
+            $(".step_content .payment_ways .payment_methods_content > div").hide();
+
+            // Show The Content That Is Related With Its Tab
+
+            $("#" + tabId + "_content").fadeIn(1000);
+
+        }
+
+    });
+     
+    // End Switch Tabs Behaviour In Payment Methods Step
+
 });

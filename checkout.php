@@ -177,7 +177,7 @@
 
          <!-- Start Order Confirmation Step Content -->
 
-          <div class = "step_content" >
+          <!-- <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
                      <div class = "col-xs-12 col-md-8" >
@@ -185,9 +185,9 @@
                              <div class = "heading" >
                                  <h6> المنتجات </h6>
                              </div>
-                             <div class = "purchased_products" > 
+                             <div class = "purchased_products" > -->
                                   <!-- Start Purchased Product -->
-                                  <div class = "purchased_product" >
+                                  <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -220,10 +220,10 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div>
+                                  </div> -->
                                   <!-- End Purchased Product -->
                                   <!-- Start Purchased Product -->
-                                  <div class = "purchased_product" >
+                                  <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -256,10 +256,10 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div>
+                                  </div> -->
                                   <!-- End Purchased Product -->
                                   <!-- Start Purchased Product -->
-                                   <div class = "purchased_product" >
+                                  <!-- <div class = "purchased_product" >
                                        <div class = "row" >
                                            <div class = "col-lg-3" >
                                               <div class = "product_image" >
@@ -292,17 +292,17 @@
                                               </div>
                                            </div>
                                        </div>
-                                  </div> 
+                                  </div> -->
                                   <!-- End Purchased Product -->
-                              </div>
+                             <!-- </div>
                         </div>
                      </div>
-                     <div class = "col-xs-12 col-md-4" >
+                     <div class = "col-xs-12 col-md-4" > -->
                          <!-- Start Total Price Section -->
-                         <div class = "total_price" >
-                             <h6> الحساب الكلى </h6>
+                         <!-- <div class = "total_price" > -->
+                            <!-- <h6> الحساب الكلى </h6> -->
                              <!-- Start Table -->
-                             <div class = "price_table" >
+                             <!-- <div class = "price_table" >
                                 <div class = "price_row" >
                                     <div class = "price_cell" > المجموع </div>
                                     <div class = "price_cell" > 750 جنيه </div>
@@ -315,12 +315,12 @@
                                     <div class = "price_cell" > المجموع الكلى </div>
                                     <div class = "price_cell" > 750 جنيه </div>
                                 </div>
-                             </div> 
+                             </div>  -->
                              <!-- End Table -->
-                         </div>
+                        <!-- </div> -->
                          <!-- End Total Price Section -->
                          <!-- Start Shipping Infos Section -->
-                          <div class = "shipping_infos" >
+                          <!-- <div class = "shipping_infos" >
                              <h6> يتم الشحن الى </h6>
                              <div class = "location_infos" >
                                 <div class = "location_info" >
@@ -334,10 +334,10 @@
                                     <p> 07775200 </p>
                                 </div>
                              </div>
-                         </div>
+                         </div> -->
                          <!-- End Shipping Infos Section -->
                          <!-- Start Payment Method -->
-                         <div class = "payment" >
+                         <!-- <div class = "payment" >
                              <h6> طريقة الدفع </h6>
                              <div class = "payment_method" >
                                 <ul>
@@ -349,9 +349,9 @@
                                     </li>
                                 </ul>
                              </div>
-                         </div>
+                         </div> -->
                          <!-- End Payment Method -->
-                     </div>
+                    <!-- </div>
                  </div>
                  <hr />
                  <div class = "last_step" >
@@ -360,9 +360,100 @@
                     <div class = "clearfix" style = "clear:both !important" ></div>
                  </div>
              </div>
-         </div>
+         </div> -->
 
          <!-- End Order Confirmation Step Content -->
+
+         <!-- Start Payment Methods Step Content -->
+
+         <div class = "step_content" >
+             <div class = "container" >
+                 <div class = "row" >
+                     <div class = "col-lg-8" >
+                         <div class = "payment_ways" >
+                            <!-- Start Title -->
+                            <div class = "heading" >
+                                <h6> طرق الدفع </h6>
+                            </div>
+                            <!-- End Title -->
+                            <!-- Start Payment Methods Tabs -->
+                            <div id = "payment_methods_tabs" class = "payment_methods_tabs" >
+                                <ul>
+                                    <li id = "payment_method_1" class = "active" >
+                                       <span>
+                                          <i class="fa fa-credit-card fa-fw" aria-hidden="true"></i>
+                                       </span>
+                                       <span>
+                                           كارت فيزا
+                                       </span>
+                                    </li>
+                                    <li id = "payment_method_2" >
+                                       <span>
+                                           <i class="fa fa-money fa-fw" aria-hidden="true"></i>
+                                       </span>
+                                       <span>
+                                            نقدا عند الاستلام
+                                       </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Payment Methods Tabs -->
+                            <!-- Start Payment Methods Tabs Content -->
+                            <div id = "payment_methods_content" class = "payment_methods_content" >
+                                <!-- Start Payment Method 1 Tab Content -->
+                                <div id = "payment_method_1_content" > 
+                                    <div class = "row" >
+                                        <div class = "col-lg-5" >
+                                            <!-- Start Card Number -->
+                                            <div class = "card_number" >
+                                                <div class = "form-group" >
+                                                    <label for = "card_number" > رقم الكارت </label>
+                                                    <input type = "text" name = "card_number" class = "form-control" placeholder = "**** **** ****" />
+                                                </div>
+                                            </div>
+                                            <!-- End Card Number -->
+                                        </div>
+                                        <div class = "col-lg-4" >
+                                            <!-- Start Expiration Date -->
+                                            <div class = "expiration_date" >
+                                                <div class = "form-group" >
+                                                    <label for = "expiration_date" > تاريخ الصلاحية </label>
+                                                    <input type = "text" name = "expiration_date" class = "form-control" placeholder = "MONTH / YEAR" />
+                                                </div>
+                                             </div>
+                                             <!-- End Expiration Date -->
+                                        </div>
+                                        <div class = "col-lg-2" >
+                                            <!-- Start CVV -->
+                                            <div class = "cvv" >
+                                                <div class = "form-group" >
+                                                    <label for = "cvv" >  cvv </label>
+                                                    <input type = "text" name = "cvv" class = "form-control" placeholder = "* * *" />
+                                                </div>
+                                             </div>
+                                            <!-- End CVV -->
+                                        </div>
+                                        <div class = "col-lg-1" ></div>
+                                    </div>
+                                 </div>
+                                 <!-- End Payment Method 1 Tab Content -->
+                                 <!-- Start payment Method 2 Tab Content -->
+                                 <div id = "payment_method_2_content" >
+                                     <p> يتم الدفع نقدا عند الاستلام </p>
+                                 </div>
+                                 <!-- End Payment Method 2 Tab Content -->
+                            </div>
+                            <!-- End Payment Methods Tabs Content -->
+                         </div>
+                     </div>
+                     <div class = "col-lg-4" >
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- End Payment Methods Step Content -->
 
          <!-- End Form Steps -->
       </form> 
