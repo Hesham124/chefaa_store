@@ -408,7 +408,7 @@
                                             <div class = "card_number" >
                                                 <div class = "form-group" >
                                                     <label for = "card_number" > رقم الكارت </label>
-                                                    <input type = "text" name = "card_number" class = "form-control" placeholder = "**** **** ****" />
+                                                    <input type = "text" name = "card_number" id = "card_number" class = "form-control" placeholder = "**** **** ****" maxlength = "12" onkeypress = "return isNumberKey(event)"/>
                                                 </div>
                                             </div>
                                             <!-- End Card Number -->
@@ -418,7 +418,7 @@
                                             <div class = "expiration_date" >
                                                 <div class = "form-group" >
                                                     <label for = "expiration_date" > تاريخ الصلاحية </label>
-                                                    <input type = "text" name = "expiration_date" class = "form-control" placeholder = "MONTH / YEAR" />
+                                                    <input type = "text" name = "expiration_date" id = "expiration_date" class = "form-control" placeholder = "MONTH / YEAR" onfocus="(this.type='month')" onblur="(this.type='text')" />
                                                 </div>
                                              </div>
                                              <!-- End Expiration Date -->
@@ -428,7 +428,7 @@
                                             <div class = "cvv" >
                                                 <div class = "form-group" >
                                                     <label for = "cvv" >  cvv </label>
-                                                    <input type = "text" name = "cvv" class = "form-control" placeholder = "*  *  *" />
+                                                    <input type = "text" name = "cvv" id = "cvv" class = "form-control" placeholder = "*  *  *" maxlength = "3" onkeypress = "return isNumberKey(event)" />
                                                 </div>
                                              </div>
                                             <!-- End CVV -->
@@ -488,6 +488,11 @@
                      </div>
                  </div>
                  <hr />
+                 <div class = "second_step" >
+                    <input type = "button" name = "previous" class = "previous action-button" value = "العنوان" />
+                    <input type = "button" name = "next" class = "next action-button" value = "التاكيد" />
+                    <div class = "clearfix" style = "clear:both !important" ></div>
+                 </div>
              </div>
          </div>
 
