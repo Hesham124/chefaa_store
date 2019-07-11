@@ -108,4 +108,38 @@ $(document).ready(function() {
      
     // End Switch Tabs Behaviour In Payment Methods Step
 
+    // Start Validation Of Purchase Form
+
+    /*$("#purchase_form").validate({
+        
+        rules: {
+
+            // Start Client Name Validation
+
+            client_name : {
+                required  : true,
+                minlength : 20
+            } 
+
+            // End Client Name Validation
+
+        },
+
+        messages: {
+
+            // Start Client Name Validation Error Messages
+            
+            client_name : {
+                required  : "<div class = 'add_address_error_message' >  من فضلك قم بادخال الاسم </div>" ,
+                minlength : "<div class = 'add_address_error_message' > من فضلك قم بادخال 20 حرف على الاقل </div>"
+            }
+
+            // End Client Name Validation Error Messages  
+            
+        }
+
+     }); */
+
+    // End Validation Of Purchase Form
+
 });

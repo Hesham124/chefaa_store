@@ -454,7 +454,7 @@
 .step_content .payment_ways #payment_method_2_content { 
     background-color : #FFF;
     box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
-    padding : 25px 25px 35px 0;
+    padding : 25px 25px 35px 25px;
  }
 
  .step_content .payment_ways #payment_method_1_content , .step_content .payment_ways #payment_method_2_content { min-height : 170px ; text-align : right}
@@ -499,7 +499,50 @@
 
 /* Start Payment Methods Step Responsive Content Style */
 
+@media(max-width : 768px) {
 
+    .step_content .payment_ways #payment_method_1_content , .step_content .payment_ways #payment_method_2_content {
+
+        min-height : 385px !important;
+        margin-bottom : 5%
+
+    }
+
+    .step_content .payment_ways #payment_method_2_content p { text-align : center ; line-height : 15rem }
+
+}
+
+@media(max-width : 375px) {
+
+    .step_content .payment_ways .payment_methods_tabs ul li {
+        display : block !important;
+        width : 100%
+    }
+
+    .step_content .payment_ways .payment_methods_tabs ul li:first-of-type { margin-left : 0 !important ; margin-bottom : 5% !important}
+
+    .step_content .second_step { text-align : center !important }
+
+    .step_content .second_step input { float : none !important }
+    
+    .step_content .clearfix { display : none !important }
+
+    .step_content .second_step input:first-of-type { margin-bottom : 3%  }
+
+    .step_content .second_step input:nth-child(2) { padding-right : 71px !important ; padding-left : 71px !important }  
+
+}
+
+@media(max-width : 414px) {
+
+    .step_content .payment_ways .payment_methods_tabs ul li {
+        display : block !important;
+        width : 100%
+    }
+
+    .step_content .payment_ways .payment_methods_tabs ul li:first-of-type { margin-left : 0 !important ; margin-bottom : 5% !important}
+
+}
 
 /* End Payment Methods Step Responsive Content Style */
 

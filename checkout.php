@@ -369,7 +369,7 @@
          <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
-                     <div class = "col-lg-8" >
+                     <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-8" >
                          <div class = "payment_ways" >
                             <!-- Start Title -->
                             <div class = "heading" >
@@ -403,7 +403,7 @@
                                 <!-- Start Payment Method 1 Tab Content -->
                                 <div id = "payment_method_1_content" > 
                                     <div class = "row" >
-                                        <div class = "col-lg-5" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-5" >
                                             <!-- Start Card Number -->
                                             <div class = "card_number" >
                                                 <div class = "form-group" >
@@ -413,7 +413,7 @@
                                             </div>
                                             <!-- End Card Number -->
                                         </div>
-                                        <div class = "col-lg-4" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-4" >
                                             <!-- Start Expiration Date -->
                                             <div class = "expiration_date" >
                                                 <div class = "form-group" >
@@ -423,7 +423,7 @@
                                              </div>
                                              <!-- End Expiration Date -->
                                         </div>
-                                        <div class = "col-lg-2" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-2" >
                                             <!-- Start CVV -->
                                             <div class = "cvv" >
                                                 <div class = "form-group" >
@@ -433,7 +433,7 @@
                                              </div>
                                             <!-- End CVV -->
                                         </div>
-                                        <div class = "col-lg-1" ></div>
+                                        <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-1" ></div>
                                     </div>
                                  </div>
                                  <!-- End Payment Method 1 Tab Content -->
@@ -446,7 +446,7 @@
                             <!-- End Payment Methods Tabs Content -->
                          </div>
                      </div>
-                     <div class = "col-lg-4" >
+                     <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-4" >
                          <!-- Start Total Price Section -->
                          <div class = "total_price" >
                              <h6> الحساب الكلى </h6>
