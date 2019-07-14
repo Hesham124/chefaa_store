@@ -103,7 +103,7 @@
 
 <section id = "purchase_form" class = "purchase_form" >
       <!-- Start Purchase Form -->
-      <form action = "" method = "post " enctype = "multipart/form-data" >
+      <form action = "" method = "post" enctype = "multipart/form-data" >
          <!-- Start Form Steps -->
          <ul id = "progressbar" >
              <li class = "active" >

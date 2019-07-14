@@ -700,4 +700,10 @@
 
 /* End Step Content Style */
 
+/* Start Activation Of Purchase Process Steps */
+
+#purchase_form .step_content:not(:first-of-type) { display : none }
+
+/* Start Activation Of Purchase Process Steps */
+
 /* End Css Code */
