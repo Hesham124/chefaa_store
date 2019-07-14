@@ -368,7 +368,7 @@
     outline          : none;
     transition       : 0.8s;
     margin           : auto;
-    padding          : 8px 70px;
+    padding          : 8px 70px !important;
     font-weight      : bold
 }
 

@@ -142,4 +142,16 @@ $(document).ready(function() {
 
     // End Validation Of Purchase Form
 
+    // Start Validation Of Card Number Input
+
+    $('#card_number').on('keyup', function() {
+        var foo = $(this).val().split(" ").join(""); 
+        if (foo.length > 0) {
+            foo = foo.match(new RegExp('.{1,4}', 'g')).join(" ");
+        }
+        $(this).val(foo);
+    });
+
+    // End Validation Of Card Number Input
+
 });

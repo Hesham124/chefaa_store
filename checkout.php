@@ -103,7 +103,7 @@
 
 <section id = "purchase_form" class = "purchase_form" >
       <!-- Start Purchase Form -->
-      <form action = "" method = "" enctype = "multipart/form-data" >
+      <form action = "" method = "post " enctype = "multipart/form-data" >
          <!-- Start Form Steps -->
          <ul id = "progressbar" >
              <li class = "active" >
@@ -119,23 +119,23 @@
 
          <!-- Start [Address] Steps Content -->
 
-          <!-- <div class = "step_content" >
+          <div class = "step_content" >
              <div class = "container" >
                  <div class = "row" >
                      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
-                        <div class = "location_infos" > -->
+                        <div class = "location_infos" >
                             <!-- Start Location Icons -->
-                            <!-- <div class = "location_icons" >
+                             <div class = "location_icons" >
                                 <div class = "location_icon" >
                                     <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
                                 </div>
                                 <div class = "dots_icon" >
                                     <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
                                 </div>
-                            </div> -->
+                            </div> 
                             <!-- End Location Icons -->
                             <!-- Start Location Info -->
-                            <!--  <div class = "location_info" >
+                              <div class = "location_info" >
                                 <h6> الاسم </h6>
                                 <p> محمد احمد عبد الحميد </p>
                                 <h6> العنوان </h6>
@@ -144,16 +144,16 @@
                                 </p>
                                 <h6>  رقم الاتصال </h6>
                                 <p> 07775200 </p>
-                            </div> -->
+                            </div>
                             <!-- End Location Info -->
                             <!-- Start Verified Location -->
-                            <!-- <div id = "verified_location" title = "verified" >
+                            <div id = "verified_location" title = "verified" >
                                 <span>
                                    <i class="fa fa-check" aria-hidden="true"></i>
                                 </span>
-                            </div> -->
+                            </div>
                             <!-- End Verified Location -->
-                         <!-- </div>
+                         </div>
                      </div>
                      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4" >
                         <div class = "add_location" >
@@ -171,198 +171,9 @@
                     <input type = "button" name = "next" class = "next action-button" value = "طرق الدفع" />
                  </div>
              </div>
-         </div> -->
+         </div>
  
          <!-- End [Address] Steps Content -->
-
-         <!-- Start Order Confirmation Step Content -->
-
-          <!-- <div class = "step_content" >
-             <div class = "container" >
-                 <div class = "row" >
-                     <div class = "col-xs-12 col-md-8" >
-                        <div class = "products" >
-                             <div class = "heading" >
-                                 <h6> المنتجات </h6>
-                             </div>
-                             <div class = "purchased_products" > -->
-                                  <!-- Start Purchased Product -->
-                                  <!-- <div class = "purchased_product" >
-                                       <div class = "row" >
-                                           <div class = "col-lg-3" >
-                                              <div class = "product_image" >
-                                                  <img src = "images/order_confirmation_products/order_confirm_product_1.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
-                                              </div>
-                                           </div>
-                                           <div class = "col-lg-1" > </div>
-                                           <div class = "col-lg-6" >
-                                               <div class = "product_info" >
-                                                    <h6> Himalaya </h6>
-                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
-                                                    <ul>
-                                                        <li>
-                                                            <del> 50 جنيه  </del>
-                                                            <span> 250 جنيه  </span>
-                                                        </li>
-                                                        <li>
-                                                            <span> X </span>
-                                                        </li>
-                                                        <li>
-                                                           <span> 1 </span>
-                                                           <span> كمية </span>
-                                                        </li>
-                                                    </ul>
-                                               </div>
-                                           </div>
-                                           <div class = "col-lg-2" >
-                                              <div class = "price" >
-                                                  <span> 250 جنيه </span>
-                                              </div>
-                                           </div>
-                                       </div>
-                                  </div> -->
-                                  <!-- End Purchased Product -->
-                                  <!-- Start Purchased Product -->
-                                  <!-- <div class = "purchased_product" >
-                                       <div class = "row" >
-                                           <div class = "col-lg-3" >
-                                              <div class = "product_image" >
-                                                  <img src = "images/order_confirmation_products/order_confirm_product_2.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
-                                              </div>
-                                           </div>
-                                           <div class = "col-lg-1" > </div>
-                                           <div class = "col-lg-6" >
-                                               <div class = "product_info" >
-                                                    <h6> Himalaya </h6>
-                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
-                                                    <ul>
-                                                        <li>
-                                                            <del> 50 جنيه  </del>
-                                                            <span> 250 جنيه  </span>
-                                                        </li>
-                                                        <li>
-                                                            <span> X </span>
-                                                        </li>
-                                                        <li>
-                                                           <span> 1 </span>
-                                                           <span> كمية </span>
-                                                        </li>
-                                                    </ul>
-                                               </div>
-                                           </div>
-                                           <div class = "col-lg-2" >
-                                              <div class = "price" >
-                                                  <span> 250 جنيه </span>
-                                              </div>
-                                           </div>
-                                       </div>
-                                  </div> -->
-                                  <!-- End Purchased Product -->
-                                  <!-- Start Purchased Product -->
-                                  <!-- <div class = "purchased_product" >
-                                       <div class = "row" >
-                                           <div class = "col-lg-3" >
-                                              <div class = "product_image" >
-                                                  <img src = "images/order_confirmation_products/order_confirm_product_3.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
-                                              </div>
-                                           </div>
-                                           <div class = "col-lg-1" > </div>
-                                           <div class = "col-lg-6" >
-                                               <div class = "product_info" >
-                                                    <h6> Himalaya </h6>
-                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
-                                                    <ul>
-                                                        <li>
-                                                            <del> 50 جنيه  </del>
-                                                            <span> 250 جنيه  </span>
-                                                        </li>
-                                                        <li>
-                                                            <span> X </span>
-                                                        </li>
-                                                        <li>
-                                                           <span> 1 </span>
-                                                           <span> كمية </span>
-                                                        </li>
-                                                    </ul>
-                                               </div>
-                                           </div>
-                                           <div class = "col-lg-2" >
-                                              <div class = "price" >
-                                                  <span> 250 جنيه </span>
-                                              </div>
-                                           </div>
-                                       </div>
-                                  </div> -->
-                                  <!-- End Purchased Product -->
-                             <!-- </div>
-                        </div>
-                     </div>
-                     <div class = "col-xs-12 col-md-4" > -->
-                         <!-- Start Total Price Section -->
-                         <!-- <div class = "total_price" > -->
-                            <!-- <h6> الحساب الكلى </h6> -->
-                             <!-- Start Table -->
-                             <!-- <div class = "price_table" >
-                                <div class = "price_row" >
-                                    <div class = "price_cell" > المجموع </div>
-                                    <div class = "price_cell" > 750 جنيه </div>
-                                </div>
-                                <div class = "price_row" >
-                                    <div class = "price_cell" > الشحن </div>
-                                    <div class = "price_cell" > 750 جنيه </div>
-                                </div>
-                                <div class = "price_row" >
-                                    <div class = "price_cell" > المجموع الكلى </div>
-                                    <div class = "price_cell" > 750 جنيه </div>
-                                </div>
-                             </div>  -->
-                             <!-- End Table -->
-                        <!-- </div> -->
-                         <!-- End Total Price Section -->
-                         <!-- Start Shipping Infos Section -->
-                          <!-- <div class = "shipping_infos" >
-                             <h6> يتم الشحن الى </h6>
-                             <div class = "location_infos" >
-                                <div class = "location_info" >
-                                    <h6> الاسم </h6>
-                                    <p> محمد احمد عبد الحميد </p>
-                                    <h6> العنوان </h6>
-                                    <p>
-                                    شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
-                                    </p>
-                                    <h6>  رقم الاتصال </h6>
-                                    <p> 07775200 </p>
-                                </div>
-                             </div>
-                         </div> -->
-                         <!-- End Shipping Infos Section -->
-                         <!-- Start Payment Method -->
-                         <!-- <div class = "payment" >
-                             <h6> طريقة الدفع </h6>
-                             <div class = "payment_method" >
-                                <ul>
-                                    <li>
-                                       <i class="fa fa-credit-card" aria-hidden="true"></i>
-                                    </li>
-                                    <li>
-                                        <span> 5478 **** *** *** </span>
-                                    </li>
-                                </ul>
-                             </div>
-                         </div> -->
-                         <!-- End Payment Method -->
-                    <!-- </div>
-                 </div>
-                 <hr />
-                 <div class = "last_step" >
-                    <input type = "button" name = "previous" class = "previous action-button payment_method_button" value = "طرق الدفع" />
-                    <button class = "confirm_order" > التاكيد </button>
-                    <div class = "clearfix" style = "clear:both !important" ></div>
-                 </div>
-             </div>
-         </div> -->
-
-         <!-- End Order Confirmation Step Content -->
 
          <!-- Start Payment Methods Step Content -->
 
@@ -408,7 +219,7 @@
                                             <div class = "card_number" >
                                                 <div class = "form-group" >
                                                     <label for = "card_number" > رقم الكارت </label>
-                                                    <input type = "text" name = "card_number" id = "card_number" class = "form-control" placeholder = "**** **** ****" maxlength = "12" onkeypress = "return isNumberKey(event)"/>
+                                                    <input type = "text" name = "card_number" id = "card_number" class = "form-control" placeholder = "**** **** ****" maxlength = "14" onkeypress = "return isNumberKey(event)"/>
                                                 </div>
                                             </div>
                                             <!-- End Card Number -->
@@ -498,6 +309,195 @@
 
          <!-- End Payment Methods Step Content -->
 
+         <!-- Start Order Confirmation Step Content -->
+
+         <div class = "step_content" >
+             <div class = "container" >
+                 <div class = "row" >
+                     <div class = "col-xs-12 col-md-8" >
+                        <div class = "products" >
+                             <div class = "heading" >
+                                 <h6> المنتجات </h6>
+                             </div>
+                             <div class = "purchased_products" >
+                                  <!-- Start Purchased Product -->
+                                  <div class = "purchased_product" >
+                                       <div class = "row" >
+                                           <div class = "col-lg-3" >
+                                              <div class = "product_image" >
+                                                  <img src = "images/order_confirmation_products/order_confirm_product_1.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
+                                              </div>
+                                           </div>
+                                           <div class = "col-lg-1" > </div>
+                                           <div class = "col-lg-6" >
+                                               <div class = "product_info" >
+                                                    <h6> Himalaya </h6>
+                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
+                                                    <ul>
+                                                        <li>
+                                                            <del> 50 جنيه  </del>
+                                                            <span> 250 جنيه  </span>
+                                                        </li>
+                                                        <li>
+                                                            <span> X </span>
+                                                        </li>
+                                                        <li>
+                                                           <span> 1 </span>
+                                                           <span> كمية </span>
+                                                        </li>
+                                                    </ul>
+                                               </div>
+                                           </div>
+                                           <div class = "col-lg-2" >
+                                              <div class = "price" >
+                                                  <span> 250 جنيه </span>
+                                              </div>
+                                           </div>
+                                       </div>
+                                  </div>
+                                  <!-- End Purchased Product -->
+                                  <!-- Start Purchased Product -->
+                                   <div class = "purchased_product" >
+                                       <div class = "row" >
+                                           <div class = "col-lg-3" >
+                                              <div class = "product_image" >
+                                                  <img src = "images/order_confirmation_products/order_confirm_product_2.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
+                                              </div>
+                                           </div>
+                                           <div class = "col-lg-1" > </div>
+                                           <div class = "col-lg-6" >
+                                               <div class = "product_info" >
+                                                    <h6> Himalaya </h6>
+                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
+                                                    <ul>
+                                                        <li>
+                                                            <del> 50 جنيه  </del>
+                                                            <span> 250 جنيه  </span>
+                                                        </li>
+                                                        <li>
+                                                            <span> X </span>
+                                                        </li>
+                                                        <li>
+                                                           <span> 1 </span>
+                                                           <span> كمية </span>
+                                                        </li>
+                                                    </ul>
+                                               </div>
+                                           </div>
+                                           <div class = "col-lg-2" >
+                                              <div class = "price" >
+                                                  <span> 250 جنيه </span>
+                                              </div>
+                                           </div>
+                                       </div>
+                                  </div>
+                                  <!-- End Purchased Product -->
+                                  <!-- Start Purchased Product -->
+                                  <div class = "purchased_product" >
+                                       <div class = "row" >
+                                           <div class = "col-lg-3" >
+                                              <div class = "product_image" >
+                                                  <img src = "images/order_confirmation_products/order_confirm_product_3.png" alt = "purchased_product" class = "img-responsive" style = "width:100% !important" /> 
+                                              </div>
+                                           </div>
+                                           <div class = "col-lg-1" > </div>
+                                           <div class = "col-lg-6" >
+                                               <div class = "product_info" >
+                                                    <h6> Himalaya </h6>
+                                                    <p> كريم تفتيح الجسم من هيمالايا , 60 مل </p>
+                                                    <ul>
+                                                        <li>
+                                                            <del> 50 جنيه  </del>
+                                                            <span> 250 جنيه  </span>
+                                                        </li>
+                                                        <li>
+                                                            <span> X </span>
+                                                        </li>
+                                                        <li>
+                                                           <span> 1 </span>
+                                                           <span> كمية </span>
+                                                        </li>
+                                                    </ul>
+                                               </div>
+                                           </div>
+                                           <div class = "col-lg-2" >
+                                              <div class = "price" >
+                                                  <span> 250 جنيه </span>
+                                              </div>
+                                           </div>
+                                       </div>
+                                  </div>
+                                  <!-- End Purchased Product -->
+                              </div>
+                        </div>
+                     </div>
+                     <div class = "col-xs-12 col-md-4" >
+                         <!-- Start Total Price Section -->
+                         <div class = "total_price" > 
+                             <h6> الحساب الكلى </h6>
+                             <!-- Start Table -->
+                             <div class = "price_table" >
+                                <div class = "price_row" >
+                                    <div class = "price_cell" > المجموع </div>
+                                    <div class = "price_cell" > 750 جنيه </div>
+                                </div>
+                                <div class = "price_row" >
+                                    <div class = "price_cell" > الشحن </div>
+                                    <div class = "price_cell" > 750 جنيه </div>
+                                </div>
+                                <div class = "price_row" >
+                                    <div class = "price_cell" > المجموع الكلى </div>
+                                    <div class = "price_cell" > 750 جنيه </div>
+                                </div>
+                             </div> 
+                             <!-- End Table -->
+                        </div>
+                         <!-- End Total Price Section -->
+                         <!-- Start Shipping Infos Section -->
+                          <div class = "shipping_infos" >
+                             <h6> يتم الشحن الى </h6>
+                             <div class = "location_infos" >
+                                <div class = "location_info" >
+                                    <h6> الاسم </h6>
+                                    <p> محمد احمد عبد الحميد </p>
+                                    <h6> العنوان </h6>
+                                    <p>
+                                    شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
+                                    </p>
+                                    <h6>  رقم الاتصال </h6>
+                                    <p> 07775200 </p>
+                                </div>
+                             </div>
+                         </div> 
+                         <!-- End Shipping Infos Section -->
+                         <!-- Start Payment Method -->
+                         <div class = "payment" >
+                             <h6> طريقة الدفع </h6>
+                             <div class = "payment_method" >
+                                <ul>
+                                    <li>
+                                       <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                    </li>
+                                    <li>
+                                        <span> 5478 **** *** *** </span>
+                                    </li>
+                                </ul>
+                             </div>
+                         </div>
+                         <!-- End Payment Method -->
+                     </div>
+                 </div>
+                 <hr />
+                 <div class = "last_step" >
+                    <input type = "button" name = "previous" class = "previous action-button payment_method_button" value = "طرق الدفع" />
+                    <input type = "submit" class = "confirm_order" value = "التاكيد" />
+                    <div class = "clearfix" style = "clear:both !important" ></div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- End Order Confirmation Step Content -->
+
          <!-- End Form Steps -->
       </form> 
       <!-- End Purchase Form -->
@@ -532,4 +532,5 @@
     }
 
     // End Function [ isNumberKey ] That Allows To Enter Numbers Only
+
 </script>
