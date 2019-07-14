@@ -121,19 +121,17 @@ $(document).ready(function() {
     // End Validation Of Card Number Input
 
     // Start Activation Of Purchase Process Steps
-
-        //jQuery time
+    
         var current_sc, next_sc, previous_sc;
 
         $(".next").click(function(){
             
             current_sc = $(this).parent().parent().parent();
             next_sc = $(this).parent().parent().parent().next();
-            
-            //activate next step on progressbar using the index of next_fs
-            $("#progressbar li").eq($(".step_content").index(next_sc)).addClass("active");
 
             current_sc.fadeOut(1000, function() {
+                //activate next step on progressbar using the index of next_fs
+                $("#progressbar li").eq($(".step_content").index(next_sc)).addClass("active");
                 next_sc.fadeIn();    
             });
             
@@ -144,10 +142,9 @@ $(document).ready(function() {
             current_sc = $(this).parent().parent().parent();
             previous_sc = $(this).parent().parent().parent().prev();
             
-            //de-activate current step on progressbar
-            $("#progressbar li").eq($(".step_content").index(current_sc)).removeClass("active");
-            
             current_sc.fadeOut(1000, function() {
+                //de-activate current step on progressbar
+                $("#progressbar li").eq($(".step_content").index(current_sc)).removeClass("active");
                 previous_sc.fadeIn();
             });
             
