@@ -124,18 +124,24 @@ $(document).ready(function() {
     
         var current_sc, next_sc, previous_sc;
 
+        // Start Action When Clicking On A Next Button
+
         $(".next").click(function(){
             
             current_sc = $(this).parent().parent().parent();
             next_sc = $(this).parent().parent().parent().next();
 
             current_sc.fadeOut(1000, function() {
-                //activate next step on progressbar using the index of next_fs
+                //activate next step on progressbar using the index of next_sc
                 $("#progressbar li").eq($(".step_content").index(next_sc)).addClass("active");
-                next_sc.fadeIn();    
+                next_sc.fadeIn(1000);    
             });
             
         });
+
+        // End Action When Clicking On A Next Button
+
+        // Start Action When Clicking On A Previous Button 
 
         $(".previous").click(function(){
         
@@ -145,10 +151,12 @@ $(document).ready(function() {
             current_sc.fadeOut(1000, function() {
                 //de-activate current step on progressbar
                 $("#progressbar li").eq($(".step_content").index(current_sc)).removeClass("active");
-                previous_sc.fadeIn();
+                previous_sc.fadeIn(1000);
             });
             
         });
+
+        // End Action When Clicking On A Previous Button
 
     // End Activation Of Purchase Process Steps
 

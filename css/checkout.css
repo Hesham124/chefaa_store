@@ -78,7 +78,8 @@
     background-color : #FFF;
     border-radius : 50%;
     padding : 5px;
-    font-weight : bold
+    font-weight : bold;
+    transition : 0.8s
 }
 
 #purchase_form #progressbar li:before {
