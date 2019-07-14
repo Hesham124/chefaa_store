@@ -129,8 +129,8 @@ $(document).ready(function() {
         $(".next").click(function(){
             
             current_sc = $(this).parent().parent().parent();
-            next_sc = $(this).parent().parent().parent().next();
-
+            next_sc = $(this).parent().parent().parent().next(); 
+                                                               
             current_sc.fadeOut(1000, function() {
                 //activate next step on progressbar using the index of next_sc
                 $("#progressbar li").eq($(".step_content").index(next_sc)).addClass("active");
