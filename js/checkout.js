@@ -80,6 +80,83 @@ $(document).ready(function() {
 
     // End Validation Of Add Address Form
 
+    // Start Purchase Form Validation
+
+    $("#shopping_form").validate({
+        
+        rules: {
+
+            // Start Card Number Validation
+
+            card_number : {
+                required : true,
+                minlength : 14
+            }
+
+            // End Card Number Validation
+
+            ,
+
+            // Start Expiration Date Validation
+
+
+            expiration_date : {
+                required : true
+            }
+
+            // End Expiration Date Validation
+
+            ,
+
+            // Start CVV Validation
+
+            cvv : {
+                required : true,
+                minlength : 3
+            }
+
+            // End CVV Validation
+            
+        },
+
+        messages: {
+
+            // Start Card Number Error Validation Message
+
+            card_number : {
+                required : "<div class  = 'payment_method_error_message' > من فضلك ادخل رقم الكارت </div>",
+                minlength : "<div class = 'payment_method_error_message' > من فضلك ادخل فيما لايقل عن 12 رقم </div>"
+            }
+
+            // End Card Number Error Validation Message
+
+            ,
+
+            // Start Expiration Date Error Validation Message
+
+            expiration_date : {
+                required : "<div class  = 'payment_method_error_message' >  من فضلك ادخل تاريخ الصلاحية </div>"
+            }
+              
+            // End Expiration Date Error Validation Message
+
+            ,
+
+            // Start CVV Validation Message
+
+            cvv : {
+                required : "<div class = 'payment_method_error_message' > من فضلك ادخل cvv code </div>",
+                minlength : "<div class = 'payment_method_error_message' > من فضلك ادخل فيما لايقل عن 3 ارقام </div>"
+            }
+             
+            // End CVV Validation Message
+            
+        }
+
+     });
+
+    // End Purchase Form Validation
+    
     // Start Switch Tabs Behaviour In Payment Methods Step
 
     $(".step_content .payment_ways ul li").on("click", function() {
@@ -159,5 +236,46 @@ $(document).ready(function() {
         // End Action When Clicking On A Previous Button
 
     // End Activation Of Purchase Process Steps
+
+    // start validation of payment method step
+
+      var confirmPaymentMethodButton = $("#confirmPaymentMethodButton");
+
+     $("#payment_methods_tabs ul li").on("click", function() {
+
+        if( $(this).attr("id") == "payment_method_1" ) {
+            confirmPaymentMethodButton.removeClass("next action-button");
+            confirmPaymentMethodButton.removeAttr("formnovalidate");
+        }else {
+            confirmPaymentMethodButton.addClass("next action-button");
+            confirmPaymentMethodButton.attr("formnovalidate","formnovalidate");
+        }
+
+     });
+
+    // end validation of payment method step
+
+    // Start Action Of Confirm Payment Method Button
+
+    $("#confirmPaymentMethodButton").on("click", function(event) {
+
+        if($("#shopping_form").valid()){   
+
+            event.preventDefault();
+
+            current_sc = $(this).parent().parent().parent();
+            next_sc = $(this).parent().parent().parent().next(); 
+                                                               
+            current_sc.fadeOut(1000, function() {
+                //activate next step on progressbar using the index of next_sc
+                $("#progressbar li").eq($(".step_content").index(next_sc)).addClass("active");
+                next_sc.fadeIn(1000);    
+            });
+            
+        }
+ 
+     });
+
+    // End Action Of Confirm Payment Method Button
 
 });

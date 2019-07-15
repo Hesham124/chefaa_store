@@ -103,7 +103,7 @@
 
 <section id = "purchase_form" class = "purchase_form" >
       <!-- Start Purchase Form -->
-      <form action = "" method = "post" enctype = "multipart/form-data" >
+      <form id = "shopping_form" action = "" method = "post" enctype = "multipart/form-data" >
          <!-- Start Form Steps -->
          <ul id = "progressbar" >
              <li class = "active" >
@@ -301,7 +301,7 @@
                  <hr />
                  <div class = "second_step" >
                     <input type = "button" name = "previous" class = "previous action-button" value = "العنوان" />
-                    <input type = "button" name = "next" class = "next action-button" value = "التاكيد" />
+                    <input id = "confirmPaymentMethodButton" type = "button" name = "next"  value = "التاكيد" style = "padding:8px 65px !important; font-weight:bold !important" />
                     <div class = "clearfix" style = "clear:both !important" ></div>
                  </div>
              </div>
