@@ -259,7 +259,8 @@ $(document).ready(function() {
 
     $("#confirmPaymentMethodButton").on("click", function(event) {
 
-        if($("#shopping_form").valid()){   
+
+        if($("#shopping_form").valid()){   // Check The Form Is Valid By The JQuery Validation Plugin....
 
             event.preventDefault();
 
