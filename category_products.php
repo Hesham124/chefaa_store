@@ -8,7 +8,32 @@
 
 <!-- Start Category Products Page Content -->
 
-
+<section id = "category_products" class = "category_products" >
+    <div class = "container" >
+        <div class = "row" >
+            <!-- Start Specified Category Information -->
+            <div class = "col-lg-12" >
+               <div id = "category_information" class = "category_information" >
+                    <h5> عناية بالشعر </h5>
+                    <span> توافر 34587 منتج </span>
+               </div>
+            </div>
+            <!-- End Specified Category Information -->
+            <!-- Start Specified Category Products Filteration -->
+            <div class = "col-lg-12" >
+                <div id = "category_products_filter" class = "category_products_filter" >
+                    <select id = "products_filter" class = "products_filter" >
+                        <option> الاكثر مبيعا </option>
+                    </select>
+                </div>
+            </div>
+            <!-- Start Specified Category Products Filteration -->
+            <!-- Start Horizontal Line -->
+            <div class = "col-lg-12" > <div> <hr /> </div> </div>
+            <!-- End Horizontal Line -->
+        </div>
+    </div>
+</section>
 
 <!-- End Category Products Page Content -->
 

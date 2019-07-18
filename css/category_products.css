@@ -1,5 +1,55 @@
 /* Start CSS Code */
 
+#category_products {
+    padding : 45px 0
+}
 
+/* Start Category Information Content Style */
+
+#category_products #category_information {
+    text-align : center;
+    padding : 12px 0
+}
+
+#category_products #category_information h5 {
+    font-weight : bold;
+    color : #262626;
+    margin-bottom : 0
+}
+
+#category_products #category_information span {
+    color : #c3b6b6;
+    font-size : 17px
+}
+
+/* End Category Information Content Style */
+
+/* Start Category Products Filter Style */
+
+#category_products #category_products_filter {
+    text-align : left;
+    margin : 12px 0
+}
+
+#category_products #category_products_filter #products_filter {
+    color : #262626;
+    border : none;
+    cursor : pointer
+}
+
+#category_products #category_products_filter #products_filter:focus {
+    outline : none 
+}
+
+/* End Category Products Filter Style */
+
+/* Start Horizontal Line Style */
+
+#category_products .row hr {
+    margin : 0;
+    border : 1px solid #DDD
+}
+
+/* End Horizontal Line Style */
 
 /* End CSS Code */
