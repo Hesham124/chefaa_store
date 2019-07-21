@@ -31,6 +31,26 @@
             <!-- Start Horizontal Line -->
             <div class = "col-lg-12" > <div> <hr /> </div> </div>
             <!-- End Horizontal Line -->
+            <!-- Start Products List -->
+            <div class = "col-lg-12" >
+               <div id = "products" class = "products" >
+                   <div class = "row" >
+                       <div class = "col-lg-3" >
+                           test 1
+                       </div>
+                       <div class = "col-lg-3" >
+                           test 2
+                       </div>
+                       <div class = "col-lg-3" >
+                           test 3 
+                       </div>
+                       <div class = "col-lg-3" >
+                           test 4
+                       </div>
+                   </div>
+               </div>
+            </div>
+            <!-- End Products List -->
         </div>
     </div>
 </section>
