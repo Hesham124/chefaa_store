@@ -55,9 +55,118 @@
 /* Start Products Style */
 
 #category_products #products {
-    
+    padding : 45px 0 0 0
+}
+
+#category_products #products .item { margin-bottom : 45px }
+
+#category_products #products .item .item_content { position : relative }
+
+#category_products #products .item .item_content .discount { 
+    position         : absolute;
+    text-align       : center;
+    top              : 2%;
+    left             : 0;
+    padding          : 1% 5%;
+    z-index          : 99999;
+    font-weight      : bold;
+    color            : #FFF;
+    background-color : orange;
+    opacity          : 0.7
+}
+
+#category_products #products .item .image { padding : 20px;background-color : #F8F8F8 }
+
+#category_products #products .item .image img { width : 100% !important }
+
+#category_products #products .item .item_desc { text-align : right }
+
+#category_products #products .item .item_desc h6 { margin-top : 5%;color : #777 }
+
+#category_products #products .item .item_desc p { font-size: 16px }
+
+#category_products #products .item .item_desc h6:after {
+    content    : "";
+    display    : block;
+    border     : 1px solid #000;
+    width      : 6%;
+    margin-top : 4%
+}
+
+#category_products #products .item .item_desc del { color : #777 }
+
+#category_products #products .item .item_desc span,
+
+#category_products #products .item .item_desc del { font-size : 17px }
+
+#category_products #products .item .item_desc span { margin : 0 5%;font-weight: bold;color : #37B44E }
+
+#category_products #products .item .item_desc .offer_price a i { color : orange ; opacity : 0.7 }
+
+#category_products #products .item .best_selling_sign {
+    position         : absolute;
+    text-align       : center;
+    top              : 2%;
+    right            : 2%;
+    padding          : 5px 6px;
+    z-index          : 99999;
+    color            : #777;
+    background-color : #FFF;
+    z-index          : 99999;
+    border-radius    : 50%;
+    font-weight      : normal
 }
 
 /* End Products Style */
+
+/* Start Pagination Style */
+
+#category_products #pagination { margin : 3% auto 0 auto }
+
+#category_products #pagination ul li { 
+    display : inline-block ;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 5px;
+    cursor : pointer;
+    transition : 0.8s 
+}
+
+#category_products #pagination ul li a {
+    display : block;
+    width : 100%;
+    height : 100%;
+    text-decoration : none;
+    color : #777;
+    transition : 0.8s;
+    font-weight : bold
+}
+
+#category_products #pagination ul li:hover {background-color : #EEE; transition : 0.8s  }
+
+#category_products #pagination ul li:first-child:hover ,
+#category_products #pagination ul li:last-child:hover { background-color : transparent }
+
+#category_products #pagination ul li:first-child a:hover i {transition : 0.8s;padding-left : 15% }
+
+#category_products #pagination ul li:last-child a:hover i { transition : 0.8s;padding-right : 15% }
+
+#category_products #pagination ul li:hover a {color : #000 }
+
+#category_products #pagination ul li.active { background-color : #EEE }
+
+#category_products #pagination ul li.active a { color : #000 }
+
+#category_products #pagination ul li.arrow a i { color : #000 }
+
+#category_products #pagination ul li.disabled a { cursor: not-allowed !important }
+
+#category_products #pagination ul li.disabled a i { color : #777 }
+
+#category_products #pagination ul li.disabled a:hover i { padding : 0 !important }
+
+/* End Pagination Style */
 
 /* End CSS Code */
