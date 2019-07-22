@@ -1,5 +1,125 @@
 /* Start CSS Code */
 
+#home_profile_tabs_content { padding : 40px 0 }
 
+#home_profile_tabs_content .tabs_content { 
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important
+}
+
+/* Start Address Content Style */
+
+/* Start Current Addresses Style */
+
+#home_profile_tabs_content #address_content .title {
+    padding : 20px;
+    background-color : #F8F8F8;
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important
+}
+
+#home_profile_tabs_content #address_content .title h6 {
+    margin : 0;
+    text-align : right;
+    color : #262626
+}
+
+#home_profile_tabs_content #address_content .addresses {
+    padding : 25px 20px 45px 20px;
+    background-color : #FFF;
+}
+
+#home_profile_tabs_content #address_content .location_infos {
+    padding : 25px;
+    text-align : right;
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    position : relative;
+    margin-bottom : 15%
+ }
+ 
+ #home_profile_tabs_content #address_content .location_infos h6 {
+      color : #DDD;
+      font-size : 16px;
+      font-weight : bold
+ }
+ 
+ #home_profile_tabs_content #address_content .location_infos p {
+      color : #887d7d;
+      font-size : 16px;
+      font-weight : bold
+ }
+ 
+ #home_profile_tabs_content #address_content .location_info { margin-top : 5% }
+ 
+ #home_profile_tabs_content #address_content .location_infos .location_icons {
+     overflow : hidden
+ }
+ 
+ #home_profile_tabs_content #address_content .location_infos .location_icons .location_icon , 
+ #home_profile_tabs_content #address_content .location_infos .location_icons .dots_icons {
+     width : 50%;
+     float : right
+ } 
+ 
+ #home_profile_tabs_content #address_content .location_infos .location_icons .location_icon { text-align : right }
+ 
+ #home_profile_tabs_content #address_content .location_infos .location_icons .dots_icon { text-align : left }
+ 
+ #home_profile_tabs_content #address_content .location_infos i { font-size : 25px }
+ 
+ #home_profile_tabs_content #address_content #verified_location {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     background-color: #37B44E;
+     left: 43%;
+     text-align: center;
+     line-height: 55px;
+     border-radius: 50%;
+     color: #FFF
+ }
+
+#home_profile_tabs_content #address_content .add_location {
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    cursor : pointer;
+    text-align : center
+}
+
+#home_profile_tabs_content #address_content .add_location span {
+    display : inline-block;
+    width : 55px;
+    height : 55px;
+    text-align : center;
+    color : #FFF;
+    border-radius : 50%;
+    background-color : orange ;
+    opacity : 0.7;
+    line-height: 60px;
+    margin-bottom : 3.5%
+}
+
+#home_profile_tabs_content #address_content .add_location p { 
+    font-size : 22px ; 
+    margin-bottom : 0;
+    color : #887d7d
+}
+
+#home_profile_tabs_content #address_content .add_location a {
+    display : block;
+    width : 100%;
+    height : 100%;
+    padding : 29.1% 0;
+    text-decoration: none
+}
+
+/* End Current Addresses Style */
+
+/* Start Add Location Content Style */
+
+
+/* End Add Location Content Style */
+
+/* End Address Content Style */
 
 /* End CSS Code */

@@ -6,6 +6,10 @@
 <!-- End Calling JQuery UI Library CSS File -->
 <link rel = 'stylesheet' href = 'css/checkout.css' /> <!-- Checkout CSS File -->
 
+<style>
+#purchase_form .verified_location.inactive { display : none; }
+</style>
+
 <!-- Start Checkout Page Content -->
 
 <!-- Start Modals -->
@@ -147,7 +151,7 @@
                             </div>
                             <!-- End Location Info -->
                             <!-- Start Verified Location -->
-                            <div id = "verified_location" title = "verified" >
+                            <div id = "verified_location" title = "verified" class = "verified_location inactive" >
                                 <span>
                                    <i class="fa fa-check" aria-hidden="true"></i>
                                 </span>
@@ -532,4 +536,14 @@
     }
 
     // End Function [ isNumberKey ] That Allows To Enter Numbers Only
+</script>
+
+<script>
+    $(".location_infos").on("click", function() {
+        
+        $(".location_infos .verified_location").toggleClass("inactive");
+
+        $(this).siblings(".location_infos").find(".verified_location").removeClass("inactive");
+        
+    });
 </script>
