@@ -12,10 +12,10 @@
 
 <!-- End Home Profile Page Content -->
 
-<!-- Start Calling Home Profile JS File -->
-<script src = "js/home_profile.js" ></script>
-<!-- End Calling Home Profile JS File -->
-
 <!-- Start Include Website Footer -->
 <?php require("footer.php"); ?>
 <!-- End Include Website Footer -->
+
+<!-- Start Calling Home Profile JS File -->
+<script src = "js/home_profile.js" ></script>
+<!-- End Calling Home Profile JS File -->
