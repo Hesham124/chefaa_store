@@ -17,7 +17,7 @@
                        <div id = "address_content" >
                            <!-- Start Current Addresses -->
                            <div class = "title" >
-                               <h6> عنواين الشحن </h6>
+                               <h6> عناوين الشحن </h6>
                            </div>
                            <div class = "addresses" >
                                <div class = "row" >
@@ -46,7 +46,7 @@
                                         </div>
                                         <!-- End Location Info -->
                                         <!-- Start Verified Location -->
-                                        <div id = "verified_location" title = "verified" class = "verified_location inactive" >
+                                        <div id = "verified_location" title = "verified_location ?" class = "verified_location" >
                                             <span>
                                             <i class="fa fa-check" aria-hidden="true"></i>
                                             </span>
@@ -55,7 +55,7 @@
                                       </div>
                                    </div>
                                    <div class = "col-lg-5" >
-                                   <div class = "location_infos" >
+                                   <div class = "location_infos inactive_location" >
                                         <!-- Start Location Icons -->
                                         <div class = "location_icons" >
                                             <div class = "location_icon" >
@@ -79,7 +79,7 @@
                                         </div>
                                         <!-- End Location Info -->
                                         <!-- Start Verified Location -->
-                                        <div id = "verified_location" title = "verified" class = "verified_location inactive" >
+                                        <div id = "verified_location" title = "verified location ?"  class = "verified_location" >
                                             <span>
                                             <i class="fa fa-check" aria-hidden="true"></i>
                                             </span>
