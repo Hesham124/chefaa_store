@@ -16,7 +16,7 @@
                    <div class = "tabs_content" >
                        <div id = "address_content" >
                            <!-- Start Current Addresses -->
-                           <div class = "current_addresses active_address_tab" style = "display:none" >
+                           <div class = "current_addresses active_address_tab" >
                                 <div class = "title" >
                                     <h6> عناوين الشحن </h6>
                                 </div>
@@ -128,7 +128,7 @@
                                     <!-- End Title -->
                                     <!-- Start Add Address Content -->
                                     <div class = "add_address_content" >
-                                        <form action = "" method = "post" >
+                                        <form id = "add_address" action = "" method = "post" >
                                             <!-- Start Client Name -->
                                             <div class = "form-group" >
                                                 <label for = "client_name" > الاسم </label>
@@ -170,6 +170,10 @@
 <!-- Start Include Website Footer -->
 <?php require("footer.php"); ?>
 <!-- End Include Website Footer -->
+
+<!-- Start Calling JQuery Validation plugin -->
+<script src = "js/jquery.validate.min.js" ></script>
+<!-- End Calling JQuery Validation Plugin -->
 
 <!-- Start Calling Home Profile JS File -->
 <script src = "js/home_profile.js" ></script>

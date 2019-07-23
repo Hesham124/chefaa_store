@@ -226,6 +226,12 @@
     transition : 0.8s
 }
 
+#home_profile_tabs_content #address_content .add_new_address .add_address_content #add_address .add_address_error_message {
+    font-size: 15px;
+    color: darkred;
+    font-weight: bold
+}
+
 /* End Add Location Content Style */
 
 /* End Address Content Style */
