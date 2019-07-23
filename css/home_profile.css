@@ -2,15 +2,15 @@
 
 #home_profile_tabs_content { padding : 40px 0 }
 
-#home_profile_tabs_content .tabs_content { 
+/* Start Address Content Style */
+
+/* Start Current Addresses Style */
+
+#home_profile_tabs_content #address_content .current_addresses {
     box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
     border-top-left-radius : 5px !important;
     border-top-right-radius : 5px !important
 }
-
-/* Start Address Content Style */
-
-/* Start Current Addresses Style */
 
 #home_profile_tabs_content #address_content .title {
     padding : 20px;

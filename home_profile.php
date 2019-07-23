@@ -16,91 +16,109 @@
                    <div class = "tabs_content" >
                        <div id = "address_content" >
                            <!-- Start Current Addresses -->
-                           <div class = "title" >
-                               <h6> عناوين الشحن </h6>
-                           </div>
-                           <div class = "addresses" >
-                               <div class = "row" >
-                                <div class = "col-lg-5" >
-                                   <div class = "location_infos" >
-                                        <!-- Start Location Icons -->
-                                        <div class = "location_icons" >
-                                            <div class = "location_icon" >
-                                                <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                           <div class = "current_addresses active_address_tab" style = "display:block" >
+                                <div class = "title" >
+                                    <h6> عناوين الشحن </h6>
+                                </div>
+                                <div class = "addresses" >
+                                    <div class = "row" >
+                                        <div class = "col-lg-5" >
+                                        <div class = "location_infos" >
+                                                <!-- Start Location Icons -->
+                                                <div class = "location_icons" >
+                                                    <div class = "location_icon" >
+                                                        <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                                                    </div>
+                                                    <div class = "dots_icon" >
+                                                        <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
+                                                    </div>
+                                                </div> 
+                                                <!-- End Location Icons -->
+                                                <!-- Start Location Info -->
+                                                <div class = "location_info" >
+                                                    <h6> الاسم </h6>
+                                                    <p> محمد احمد عبد الحميد </p>
+                                                    <h6> العنوان </h6>
+                                                    <p>
+                                                    شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
+                                                    </p>
+                                                    <h6>  رقم الاتصال </h6>
+                                                    <p> 07775200 </p>
+                                                </div>
+                                                <!-- End Location Info -->
+                                                <!-- Start Verified Location -->
+                                                <div id = "verified_location" title = "verified_location ?" class = "verified_location" >
+                                                    <span>
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                                <!-- End Verified Location -->
                                             </div>
-                                            <div class = "dots_icon" >
-                                                <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
+                                        </div>
+                                        <div class = "col-lg-5" >
+                                        <div class = "location_infos inactive_location" >
+                                                <!-- Start Location Icons -->
+                                                <div class = "location_icons" >
+                                                    <div class = "location_icon" >
+                                                        <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                                                    </div>
+                                                    <div class = "dots_icon" >
+                                                        <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
+                                                    </div>
+                                                </div> 
+                                                <!-- End Location Icons -->
+                                                <!-- Start Location Info -->
+                                                <div class = "location_info" >
+                                                    <h6> الاسم </h6>
+                                                    <p> محمد احمد عبد الحميد </p>
+                                                    <h6> العنوان </h6>
+                                                    <p>
+                                                    شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
+                                                    </p>
+                                                    <h6>  رقم الاتصال </h6>
+                                                    <p> 07775200 </p>
+                                                </div>
+                                                <!-- End Location Info -->
+                                                <!-- Start Verified Location -->
+                                                <div id = "verified_location" title = "verified location ?"  class = "verified_location" >
+                                                    <span>
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                                <!-- End Verified Location -->
                                             </div>
-                                        </div> 
-                                        <!-- End Location Icons -->
-                                        <!-- Start Location Info -->
-                                        <div class = "location_info" >
-                                            <h6> الاسم </h6>
-                                            <p> محمد احمد عبد الحميد </p>
-                                            <h6> العنوان </h6>
-                                            <p>
-                                            شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
-                                            </p>
-                                            <h6>  رقم الاتصال </h6>
-                                            <p> 07775200 </p>
                                         </div>
-                                        <!-- End Location Info -->
-                                        <!-- Start Verified Location -->
-                                        <div id = "verified_location" title = "verified_location ?" class = "verified_location" >
-                                            <span>
-                                            <i class="fa fa-check" aria-hidden="true"></i>
-                                            </span>
+                                        <div class = "col-lg-5" >
+                                                <div class = "add_location" >
+                                                    <a>
+                                                        <span>
+                                                        <i class="fa fa-plus" aria-hidden="true"></i>
+                                                        </span>
+                                                        <p> اضافة<br /> عنوان جديد </p>
+                                                    </a>
+                                                </div>
                                         </div>
-                                        <!-- End Verified Location -->
-                                      </div>
-                                   </div>
-                                   <div class = "col-lg-5" >
-                                   <div class = "location_infos inactive_location" >
-                                        <!-- Start Location Icons -->
-                                        <div class = "location_icons" >
-                                            <div class = "location_icon" >
-                                                <span> <i class="fa fa-map-marker" aria-hidden="true"></i> </span>
-                                            </div>
-                                            <div class = "dots_icon" >
-                                                <span> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </span>
-                                            </div>
-                                        </div> 
-                                        <!-- End Location Icons -->
-                                        <!-- Start Location Info -->
-                                        <div class = "location_info" >
-                                            <h6> الاسم </h6>
-                                            <p> محمد احمد عبد الحميد </p>
-                                            <h6> العنوان </h6>
-                                            <p>
-                                            شارع 151 مبنى 4 الدور التاسع شقة رقم 903 المعادى - القاهرة
-                                            </p>
-                                            <h6>  رقم الاتصال </h6>
-                                            <p> 07775200 </p>
-                                        </div>
-                                        <!-- End Location Info -->
-                                        <!-- Start Verified Location -->
-                                        <div id = "verified_location" title = "verified location ?"  class = "verified_location" >
-                                            <span>
-                                            <i class="fa fa-check" aria-hidden="true"></i>
-                                            </span>
-                                        </div>
-                                        <!-- End Verified Location -->
-                                      </div>
-                                   </div>
-                                   <div class = "col-lg-5" >
-                                        <div class = "add_location" >
-                                            <a>
-                                                <span>
-                                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                                </span>
-                                                <p> اضافة<br /> عنوان جديد </p>
-                                            </a>
-                                        </div>
-                                   </div>
-                               </div>
+                                    </div>
+                                </div>
                            </div>
                            <!-- End Current Addresses -->
                            <!-- Start Add New Location -->
+                           <div class = "add_new_address" style = "display:none">
+                                <!-- Start back to addresses -->
+                                <div class = "back_to_addresses" >
+                                    <ul>
+                                        <li>
+                                           <span>
+                                              العودة لعناوين الشحن
+                                           </span>
+                                           <span>
+                                               <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                                           </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Back To Addresses -->
+                           </div>
                            <!-- End Add New Location -->
                        </div>
                    </div>
