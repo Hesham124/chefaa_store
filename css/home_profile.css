@@ -238,6 +238,68 @@
 
 #home_profile_tabs_content #address_content .active_address_tab { display : block }
 
+/* Start Responsive Of Current Addresses Section */
+
+@media(max-width : 768px) {
+
+    #home_profile_tabs_content #address_content #verified_location { left : 35% !important }
+
+    #home_profile_tabs_content #address_content .location_infos { margin-bottom : 30% !important }
+
+}
+
+@media(max-width : 375px) {
+
+    #home_profile_tabs_content #address_content #verified_location { left : 40% !important }
+
+    #home_profile_tabs_content #address_content .location_infos { margin-bottom : 20% !important }
+
+}
+
+@media(max-width : 414px) {
+
+    #home_profile_tabs_content #address_content #verified_location { left : 42% !important }
+
+    #home_profile_tabs_content #address_content .location_infos { margin-bottom : 20% !important }
+
+}
+
+@media(max-width : 320px) {
+
+    #home_profile_tabs_content #address_content #verified_location { left : 39% !important }
+
+    #home_profile_tabs_content #address_content .location_infos { margin-bottom : 22% !important }
+
+}
+
+/* End Responsive Of Current Addresses Section */
+
+/* Start Responsive Of Add Address Content Section */
+
+@media(max-width : 375px) {
+
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form input , 
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea {
+        width : 100% !important
+    }
+
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form .submit-button { text-align : center  }
+
+}
+
+@media(max-width : 414px) {
+
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form input , 
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea {
+        width : 100% !important
+    }
+
+    #home_profile_tabs_content #address_content .add_new_address .add_address_content form .submit-button { text-align : center  }
+
+}
+
+/* End Responsive of Add Address Content Section */
+
 /* End Address Content Style */
 
 /* End CSS Code */

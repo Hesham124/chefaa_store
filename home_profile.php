@@ -12,7 +12,7 @@
      <div class = "container" >
           <div class = "row" >
               <div class = "col-lg-3" ></div>
-              <div class = "col-lg-9" >
+              <div class = "col-xs-12 col-sm-12 col-md-9 col-lg-9" >
                    <div class = "tabs_content" >
                        <div id = "address_content" >
                            <!-- Start Current Addresses -->
@@ -22,8 +22,8 @@
                                 </div>
                                 <div class = "addresses" >
                                     <div class = "row" >
-                                        <div class = "col-lg-5" >
-                                        <div class = "location_infos" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5" >
+                                          <div class = "location_infos" >
                                                 <!-- Start Location Icons -->
                                                 <div class = "location_icons" >
                                                     <div class = "location_icon" >
@@ -55,8 +55,8 @@
                                                 <!-- End Verified Location -->
                                             </div>
                                         </div>
-                                        <div class = "col-lg-5" >
-                                        <div class = "location_infos inactive_location" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5" >
+                                           <div class = "location_infos inactive_location" >
                                                 <!-- Start Location Icons -->
                                                 <div class = "location_icons" >
                                                     <div class = "location_icon" >
@@ -88,7 +88,7 @@
                                                 <!-- End Verified Location -->
                                             </div>
                                         </div>
-                                        <div class = "col-lg-5" >
+                                        <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5" >
                                                 <div class = "add_location" >
                                                     <a>
                                                         <span>
@@ -178,3 +178,16 @@
 <!-- Start Calling Home Profile JS File -->
 <script src = "js/home_profile.js" ></script>
 <!-- End Calling Home Profile JS File -->
+
+<script>
+    // Start Function [ isNumberKey ] That Allows To Enter Numbers Only
+
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+           return false; 
+           return true;
+    }
+
+    // End Function [ isNumberKey ] That Allows To Enter Numbers Only
+</script>
