@@ -129,6 +129,102 @@
 
 /* Start Add Location Content Style */
 
+#home_profile_tabs_content #address_content .back_to_addresses {
+    padding : 15px 0
+}
+
+#home_profile_tabs_content #address_content .back_to_addresses ul { overflow : hidden }
+
+#home_profile_tabs_content #address_content .back_to_addresses ul li {
+    float : left;
+    transition : 0.8s;
+    border-radius : 5px
+}
+
+#home_profile_tabs_content #address_content .back_to_addresses ul li:hover {
+     transition : 0.8s;
+     background-color : #F8F8F8
+}
+
+#home_profile_tabs_content #address_content .back_to_addresses ul li:hover a { 
+    color : #777 ;
+    transition : 0.8s 
+}
+
+#home_profile_tabs_content #address_content .back_to_addresses ul li a {
+    display : block;
+    width : 100%;
+    height : 100%;
+    text-decoration : none;
+    padding : 5px;
+    color : #262626;
+    font-weight : bold;
+    transition : 0.8s;
+    font-size : 18px;
+    cursor : pointer
+}
+
+#home_profile_tabs_content #address_content .add_new_address .title {
+    padding : 20px;
+    background-color : #F8F8F8;
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important
+}
+
+#home_profile_tabs_content #address_content .add_new_address .title h6 {
+    margin : 0;
+    text-align : right;
+    color : #262626
+}
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content { padding : 20px 20px 25px }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form .form-group { text-align : right }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form .form-group label { color : #DDD ; font-size : 17px ; font-weight : bold }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form #client_name ,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form #client_phone { width : 50% }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form #client_address { width : 75% }
+
+#home_profile_tabs_content #address_content .back_to_addresses + div {
+    box-shadow : 8px 8px 24px 2px rgba(2, 26, 53, .1);
+    border-top-left-radius : 5px !important;
+    border-top-right-radius : 5px !important;
+    margin-top : 3%
+}
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form input ,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea { font-weight : bold;color : #262626 ; border-radius : 0}
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form input,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form input::placeholder ,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea::placeholder { font-size : 17px }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form input::placeholder ,
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form textarea::placeholder { color : #DDD !important ; font-weight : normal !important }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form .submit-button { margin-top : 3% }
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form .submit-button button {
+    color : #FFF;
+    background-color : orange;
+    opacity : 0.7 !important;
+    outline : none;
+    border : 1px solid rgba(255,165,0,0.7) !important;
+    transition : 0.8s;
+    border-radius : 0;
+    padding-right : 25px;
+    padding-left : 25px
+}
+
+#home_profile_tabs_content #address_content .add_new_address .add_address_content form .submit-button button:hover {
+    background-color : #FFF ;
+    color : rgba(255,165,0,0.7) !important;
+    transition : 0.8s
+}
 
 /* End Add Location Content Style */
 

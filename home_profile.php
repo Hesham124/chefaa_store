@@ -16,7 +16,7 @@
                    <div class = "tabs_content" >
                        <div id = "address_content" >
                            <!-- Start Current Addresses -->
-                           <div class = "current_addresses active_address_tab" style = "display:block" >
+                           <div class = "current_addresses active_address_tab" style = "display:none" >
                                 <div class = "title" >
                                     <h6> عناوين الشحن </h6>
                                 </div>
@@ -103,21 +103,59 @@
                            </div>
                            <!-- End Current Addresses -->
                            <!-- Start Add New Location -->
-                           <div class = "add_new_address" style = "display:none">
+                           <div class = "add_new_address" style = "display:block">
                                 <!-- Start back to addresses -->
                                 <div class = "back_to_addresses" >
                                     <ul>
                                         <li>
-                                           <span>
-                                              العودة لعناوين الشحن
-                                           </span>
-                                           <span>
-                                               <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-                                           </span>
+                                           <a href = "#" >
+                                                <span>
+                                                    العودة لعناوين الشحن
+                                                </span>
+                                                <span>
+                                                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                                                </span>
+                                           </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <!-- End Back To Addresses -->
+                                <div>
+                                    <!-- Start Title -->
+                                    <div class = "title" >
+                                        <h6> عناوين الشحن </h6>
+                                    </div>
+                                    <!-- End Title -->
+                                    <!-- Start Add Address Content -->
+                                    <div class = "add_address_content" >
+                                        <form action = "" method = "post" >
+                                            <!-- Start Client Name -->
+                                            <div class = "form-group" >
+                                                <label for = "client_name" > الاسم </label>
+                                                <input type = "text" name = "client_name" class = "form-control" id = "client_name" placeholder = "الاسم" maxlength = "20" />
+                                            </div>
+                                        <!-- End Client Name -->
+                                        <!-- Start Client Phone Number -->
+                                            <div class = "form-group" >
+                                                <label for = "client_phone" > رقم الاتصال  </label>
+                                                <input type = "text" name = "client_phone" id = "client_phone" class = "form-control" placeholder = "رقم الاتصال" maxlength = "11" onkeypress = "return isNumberKey(event)" />
+                                            </div>
+                                            <!-- End Client Phone Number -->
+                                            <!-- Start Client Address -->
+                                            <div class = "form-group" >
+                                                <label for = "client_address" > العنوان </label>
+                                                <textarea name = "client_address" class = "form-control" id = "client_address" rows = "2" placeholder = "العنوان" maxlength = "85" ></textarea>
+                                            </div>
+                                            <!-- End Client Address -->
+                                            <!-- Start Submit Button -->
+                                            <div class = "submit-button" >
+                                                <button type="submit" class="btn btn-primary">  حفظ العنوان </button>
+                                            </div>
+                                            <!-- End Submit Button -->
+                                        </form>
+                                    </div>
+                                    <!-- End Add Address Content -->
+                                </div>
                            </div>
                            <!-- End Add New Location -->
                        </div>
