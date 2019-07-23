@@ -103,7 +103,7 @@
                            </div>
                            <!-- End Current Addresses -->
                            <!-- Start Add New Location -->
-                           <div class = "add_new_address" style = "display:block">
+                           <div class = "add_new_address" >
                                 <!-- Start back to addresses -->
                                 <div class = "back_to_addresses" >
                                     <ul>

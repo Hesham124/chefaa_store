@@ -234,6 +234,10 @@
 
 /* End Add Location Content Style */
 
+#home_profile_tabs_content #address_content > div:not(:first-of-type) { display : none }
+
+#home_profile_tabs_content #address_content .active_address_tab { display : block }
+
 /* End Address Content Style */
 
 /* End CSS Code */

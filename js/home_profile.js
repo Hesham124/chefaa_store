@@ -100,7 +100,29 @@ $(document).ready(function() {
 
     /* Start Address Content Switch Tabs */
 
-    
+    $("#home_profile_tabs_content .add_location a").on("click", function(event) {
+
+        event.preventDefault();
+
+        $(this).parent().parent().parent().parent().parent().removeClass("active_address_tab").fadeOut(1000, function() {
+
+            $("#home_profile_tabs_content .add_new_address").addClass("active_address_tab").fadeIn(1000);
+
+        });
+         
+    });
+
+    $("#home_profile_tabs_content .back_to_addresses a").on("click", function(event) {
+
+        event.preventDefault();
+
+        $(this).parent().parent().parent().parent().removeClass("active_address_tab").fadeOut(1000, function() {
+
+            $("#home_profile_tabs_content .current_addresses").addClass("active_address_tab").fadeIn(1000);
+
+        });
+         
+    });
 
     /* End Address Content Switch Tabs */
 
