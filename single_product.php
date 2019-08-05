@@ -33,7 +33,7 @@
                     <div class = 'carousel-item active' >
                         <div class = "single_product_image" data-target=".bs-example-modal-lg" data-toggle="modal">
                             <div class = "discount" >40%</div> 
-                               <img  src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
+                            <img  src = "images/single_product_1.png" alt = "single_product_image" class = "img-responsive" style = "width:100% !important" />
                         </div>
                     </div>
                     <div class = 'carousel-item' >
@@ -370,7 +370,7 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+                    </div>
                     <!-- End Item -->
                 </div>
             </div>
